@@ -20,16 +20,39 @@
   ~
   -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="no_busybox">Kein busybox verfügbar</string>
+  <string name="cancel">Abbrechen</string>
+  <string name="current_value_not_supported">Aktueller Wert wird nicht unterstützt</string>
   <!-- Apply on boot -->
+  <string name="apply_on_boot">Beim Booten anwenden</string>
+  <string name="apply_on_boot_finished">Ihre Änderungen wurden übernommen</string>
+  <string name="apply_on_boot_time">Änderungen werden in %d Sekunden übernommen</string>
+  <string name="apply_on_boot_enabled">Übernehmen bei Boot für Abschnitt %s aktiviert</string>
+  <string name="apply_on_boot_disabled">Übernehmen bei Boot für Abschnitt %s deaktiviert</string>
+  <string name="apply_on_boot_failed">Übernehmen der Einstellungen bei Boot fehlgeschlagen</string>
   <!-- Units -->
   <!-- Special signs -->
   <!-- Headers -->
+  <string name="information">Information</string>
+  <string name="kernel">Kernel</string>
+  <string name="tools">Werkzeuge</string>
+  <string name="other">Andere</string>
   <!-- Tabs -->
+  <string name="frequency_table">Frequenztabelle</string>
+  <string name="kernel_information">Kernel Information</string>
+  <string name="cpu_voltage">CPU Spannung</string>
+  <string name="cpu_hotplug">CPU Hotplug</string>
+  <string name="screen">Bildschirm</string>
+  <string name="battery">Batterie</string>
+  <string name="profile">Profil</string>
+  <string name="settings">Einstellungen</string>
+  <string name="about_us">Über uns</string>
   <!-- Virtual Memory -->
   <!--Misc-->
   <!-- Frequency Table -->
   <!-- Kernel Information -->
   <!-- CPU -->
+  <string name="core">Kern %d</string>
   <!-- CPU Voltage -->
   <!-- CPU Hotplug -->
   <!-- Thermal -->
