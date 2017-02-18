@@ -219,7 +219,9 @@
   <string name="timer">Temporizador</string>
   <!-- Thermal -->
   <string name="thermal_info">Use apenas um condutor térmico entre as seguintes opções, usando mais ao mesmo tempo pode causar um comportamento inesperado.</string>
+  <string name="thermald">Thermald</string>
   <string name="thermald_summary">Qualcomm condutor térmico que impede o dispositivo de superaquecimento. Esta deve ser desativado se o kernel atual é uma alternativa.</string>
+  <string name="intellithermal">Intellithermal</string>
   <string name="intellithermal_summary">Substituição Qualcomm Thermald. Alimentado por faux123.</string>
   <string name="intellithermal_optimized">Intellithermal Optimizado</string>
   <string name="intellithermal_optimized_summary">Um substituto do kernel para Thermald da Qualcomm. Desenvolvido por faux123 e alucard_24.</string>
@@ -244,6 +246,14 @@
   <string name="msm_thermal_summary">Um substituto do kernel para Thermald da Qualcomm. Desenvolvido por mostrar-p1984.</string>
   <string name="alessa_thermal_summary">Um substituto do kernel para Thermald da Qualcomm. Desenvolvido por TeamMEX.</string>
   <string name="allowed_low_low">Fase 1: Habilitado Baixo Baixo</string>
+  <string name="allowed_low_high">Fase 1: Permitido mínimo alto</string>
+  <string name="allowed_low_freq">Fase 1: Permitido baixa frequência</string>
+  <string name="allowed_mid_low">Fase 2: Permitido mínimo médio</string>
+  <string name="allowed_mid_high">Fase 2: Permitido alto médio</string>
+  <string name="allowed_mid_freq">Fase 3: Permitido média frequência</string>
+  <string name="allowed_max_low">Fase 3: Permitido máximo baixo</string>
+  <string name="allowed_max_high">Fase 3: Permitido máximo alto</string>
+  <string name="allowed_max_freq">Fase 3: Permitido máxima frequência</string>
   <string name="check_interval">Intervalo de verificação</string>
   <string name="shutdown_temp">Temperatura de desligamento</string>
   <string name="temp_throttle">Regulador de temperatura</string>
@@ -288,6 +298,18 @@
   <string name="backlight_dimmer_offset">Deslocamento Dimmer de luz de fundo</string>
   <string name="gamma">Gamma</string>
   <string name="gamma_profile">Perfil de gamma</string>
+  <string name="red_greys">Vermelho acizentado</string>
+  <string name="red_mids">Vermelhos mediano</string>
+  <string name="red_blacks">Vermelho enegrecido</string>
+  <string name="red_whites">Vermelho embranquecido</string>
+  <string name="green_greys">Verde acizentado</string>
+  <string name="green_mids">Verde mediano</string>
+  <string name="green_blacks">Verde enegrecido</string>
+  <string name="green_whites">Verde embranquecido</string>
+  <string name="blue_greys">Azul acizentado</string>
+  <string name="blue_mids">Azul medianos</string>
+  <string name="blue_blacks">Azul enegrecidos</string>
+  <string name="blue_whites">Azul embranquecido</string>
   <string name="contrast">Contraste</string>
   <string name="brightness">Brilho</string>
   <string name="red_positive">Vermelho Positivo</string>
@@ -379,6 +401,7 @@
   <string name="power_suspend_mode">Ligar modo de suspenção</string>
   <string name="power_suspend_mode_summary">Modo kernel, ganchos de LCD e gancho de nível mais alto são gerenciados automaticamente pelo kernel, para habilitar ou desabilitar manualmente o estado de suspensão, escolha o Modo Usuário.</string>
   <string name="autosleep">Auto suspender</string>
+  <string name="userspace">Espaço do usuário</string>
   <string name="lcd_panel">Painel LCD</string>
   <string name="hybrid">Híbrido</string>
   <string name="power_suspend_state">Estado de Suspensão de Energia</string>
