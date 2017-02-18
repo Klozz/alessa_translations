@@ -219,6 +219,7 @@
   <string name="timer">Temporizador</string>
   <!-- Thermal -->
   <string name="thermal_info">Utilice sólo un controlador térmico de las siguientes opciones, utilizando más al mismo tiempo puede causar un comportamiento inesperado.</string>
+  <string name="thermald">Térmico</string>
   <string name="thermald_summary">Conductor térmico de Qualcomm que evita que el dispositivo se sobrecaliente. Esto debe desactivarse si el kernel actual tiene una alternativa.</string>
   <string name="intellithermal">Intellithermal</string>
   <string name="intellithermal_summary">Un reemplazo de Qualcomm Thermald. Desarrollado por faux123.</string>
@@ -400,6 +401,7 @@
   <string name="power_suspend_mode">Modo de suspensión de energía</string>
   <string name="power_suspend_mode_summary">Modo de núcleo, LCD Hooks y Hook de nivel más alto son gestionados automáticamente por el núcleo, Para activar o desactivar manualmente el estado de suspensión de alimentación, seleccione Modo de usuario.</string>
   <string name="autosleep">Auto Suspensión</string>
+  <string name="userspace">Espacio de Usuario</string>
   <string name="lcd_panel">Panel LCD</string>
   <string name="hybrid">Híbrido</string>
   <string name="power_suspend_state">Estado de Suspensión de Energía</string>
