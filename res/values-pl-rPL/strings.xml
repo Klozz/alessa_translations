@@ -24,18 +24,90 @@
   ~
   -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="no_root">Root niedostępny</string>
+  <string name="no_busybox">Brak busybox</string>
+  <string name="loading">Wczytywanie</string>
+  <string name="ok">OK</string>
+  <string name="cancel">Anuluj</string>
+  <string name="current_value_not_supported">Bieżąca wartość nie jest obsługiwana</string>
   <!-- Apply on boot -->
+  <string name="apply_on_boot">Zastosuj przy starcie</string>
+  <string name="apply_on_boot_finished">Twoje zmiany zostały zastosowane</string>
+  <string name="apply_on_boot_time">Ustawienia zostaną zastosowane za %d sekund</string>
+  <string name="apply_on_boot_enabled">Włączono zastosowanie zmian przy uruchomieniu dla sekcji %s</string>
+  <string name="apply_on_boot_disabled">Wyłączono zastosowanie zmian przy uruchomieniu dla sekcji %s</string>
+  <string name="apply_on_boot_failed">Zastosowanie ustawień przy uruchomieniu nie powiodło się</string>
   <!-- Units -->
   <!-- Special signs -->
   <!-- Headers -->
+  <string name="information">Informacja</string>
+  <string name="kernel">Jądro (kernel)</string>
+  <string name="tools">Narzędzia</string>
+  <string name="other">Pozostałe</string>
   <!-- Tabs -->
+  <string name="frequency_table">Tabela częstotliwości</string>
+  <string name="kernel_information">Informacje o kernelu</string>
+  <string name="cpu_voltage">Napięcie CPU</string>
+  <string name="cpu_hotplug">CPU Hotplug</string>
+  <string name="thermal">Termiczne</string>
+  <string name="screen">Ekran</string>
+  <string name="high_brightness_mode">Tryb wysokiej jasności</string>
+  <string name="wake">Funkcje wybudzania</string>
+  <string name="battery">Bateria</string>
+  <string name="io_scheduler">Zarządca I/O</string>
+  <string name="ksm">Łączenie stron kernela</string>
+  <string name="low_memory_killer">Zarządca niskiego poziomu pamięci</string>
+  <string name="virtual_memory">Pamięć wirtualna</string>
+  <string name="misc_controls">Pozostałe ustawienia</string>
+  <string name="build_prop_editor">Edytor build prop</string>
+  <string name="profile">Profil</string>
+  <string name="recovery">Recovery</string>
+  <string name="settings">Ustawienia</string>
+  <string name="about_us">O nas</string>
   <!-- Virtual Memory -->
+  <string name="zram">Z-RAM</string>
+  <string name="disksize">Rozmiar dysku</string>
+  <string name="disksize_summary">Próbuje zwiększyć wydajność używając skompresowanego RAM-dysku zamiast tradycyjnego stronicowania w pamięci masowej. Tradycyjny plik strony będzie używany tylko wówczas, kiedy okaże się absolutnie niezbędny.</string>
   <!--Misc-->
+  <string name="sensor_ind_wakelock">Wakelock sensor_ind</string>
+  <string name="sensor_ind_wakelock_summary">Zapobiega wakelockowi, gdy Ambient Display jest wyłączony.</string>
   <!-- Frequency Table -->
+  <string name="unused_cpu_states">Nieużywane stany CPU</string>
+  <string name="uptime">Czas działania</string>
+  <string name="deep_sleep">Głęboki sen</string>
+  <string name="reset_timer">Resetuj liczniki</string>
+  <string name="restore_timer">Przywróć liczniki</string>
   <!-- Kernel Information -->
+  <string name="kernel_version">Wersja kernela</string>
+  <string name="cpu_information">Informacje o CPU</string>
+  <string name="memory_information">Informacje o pamięci</string>
   <!-- CPU -->
+  <string name="cpu_usage">Użycie CPU</string>
+  <string name="current_freq">Aktualna częstotliwość</string>
   <!-- CPU Voltage -->
   <!-- CPU Hotplug -->
+  <string name="balanced">Zbalansowany</string>
+  <string name="performance">Wydajny</string>
+  <string name="conservative">Tradycyjny</string>
+  <string name="strict">Ścisły</string>
+  <string name="eco_mode_summary">Tryb oszczędzania baterii dla IntelliPlug.</string>
+  <string name="touch_boost">Boost podczas dotyku</string>
+  <string name="touch_boost_summary">Ta opcja zwiększy minimalne taktowanie CPU podczas dotyku ekranu lub naciśnięcia przycisku.</string>
+  <string name="hysteresis">Opóźnienie reakcji</string>
+  <string name="hysteresis_summary">Im niższa wartość, tym szybsza reakcja.</string>
+  <string name="threshold">Wartość progowa</string>
+  <string name="debug">Debugowanie</string>
+  <string name="debug_summary">Pozwala aktywować maskę debugowania dla operacji.</string>
+  <string name="suspend">Usypianie</string>
+  <string name="suspend_summary">Zapobiegaj uśpieniu.</string>
+  <string name="cpus_boosted">Zwiększenie taktowania rdzeni</string>
+  <string name="cpus_boosted_summary">Maksymalna ilość rdzeni, dla których zostanie zastosowane zwiększenie taktowania w tym samym czasie.</string>
+  <string name="min_cpus_online">Minimum</string>
+  <string name="min_cpus_online_summary">Minimalna ilość aktywnych rdzeni w danej chwili.</string>
+  <string name="max_cpus_online">Maksimum</string>
+  <string name="max_cpus_online_summary">Maksymalna ilość aktywnych rdzeni w danej chwili.</string>
+  <string name="max_cpus_online_susp">Maksimum przy wyłączonym ekranie</string>
+  <string name="max_cpus_online_susp_summary">Maksymalna ilość aktywnych rdzeni w przy wyłączonym ekranie.</string>
   <!-- Thermal -->
   <!-- GPU -->
   <!-- Screen -->
