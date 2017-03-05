@@ -24,7 +24,10 @@
   ~
   -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="no_root">Kein Root vorhanden</string>
   <string name="no_busybox">Kein busybox verfügbar</string>
+  <string name="loading">Lädt</string>
+  <string name="ok">Ok</string>
   <string name="cancel">Abbrechen</string>
   <string name="current_value_not_supported">Aktueller Wert wird nicht unterstützt</string>
   <!-- Apply on boot -->
@@ -48,13 +51,21 @@
   <string name="cpu_hotplug">CPU Hotplug</string>
   <string name="screen">Bildschirm</string>
   <string name="battery">Batterie</string>
+  <string name="virtual_memory">Virtueller Speicher</string>
+  <string name="build_prop_editor">Build Prop Editor</string>
   <string name="profile">Profil</string>
+  <string name="recovery">Recovery</string>
   <string name="settings">Einstellungen</string>
   <string name="about_us">Über uns</string>
   <!-- Virtual Memory -->
+  <string name="zram">Z-RAM</string>
   <!--Misc-->
   <!-- Frequency Table -->
+  <string name="uptime">Betriebszeit</string>
+  <string name="deep_sleep">Tiefschlaf</string>
   <!-- Kernel Information -->
+  <string name="cpu_information">CPU-Information</string>
+  <string name="memory_information">Speicherinformation</string>
   <!-- CPU -->
   <string name="core">Kern %d</string>
   <!-- CPU Voltage -->
