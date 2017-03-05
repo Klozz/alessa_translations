@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2016 Carlos (klozz) Jesus (TeamMEX)
+  ~   Copyright (C)2017 Carlos (klozz) Jesus (TeamMEX)
   ~
-  ~   This strings.xml is part of Alessa
+  ~   This file strings.xml is part of Alessa
   ~
-  ~     Alessa is free software: you can redistribute it and/or modify
-  ~     it under the terms of the GNU General Public License as published by
-  ~     the Free Software Foundation, either version 2 of the License, or
-  ~     (at your option) any later version.
+  ~   Alessa is free software: you can redistribute it and/or modify
+  ~   it under the terms of the GNU General Public License as published by
+  ~   the Free Software Foundation, either version 2 of the License, or
+  ~   (at your option) any later version.
   ~
-  ~     Alessa is distributed in the hope that it will be useful,
-  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~     GNU General Public License for more details.
+  ~   Alessa is distributed in the hope that it will be useful,
+  ~   but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~   GNU General Public License for more details.
   ~
-  ~     You should have received a copy of the GNU General Public License
-  ~     along with Alessa.  If not, see <http://www.gnu.org/licenses/>.
+  ~   You should have received a copy of the GNU General Public License
+  ~   along with Alessa.  If not, see <http://www.gnu.org/licenses/>.
+  ~
+  ~   4/03/17 01:03 AM
+  ~   RobaAlmas2
+  ~   Author: klozz
   ~
   -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
@@ -59,6 +63,7 @@
     <string name="frequency_table">Frequency Table</string>
     <string name="kernel_information">Kernel Information</string>
     <string name="cpu" translatable="false" >CPU</string>
+    <string name="cpu_temp">CPU Temperature</string>
     <string name="cpu_voltage">CPU Voltage</string>
     <string name="cpu_hotplug">CPU Hotplug</string>
     <string name="gpu" translatable="false" >GPU</string>
@@ -72,6 +77,7 @@
     <string name="ksm">Kernel Samepage Merging</string>
     <string name="low_memory_killer">Low Memory Killer</string>
     <string name="virtual_memory">Virtual Memory</string>
+    <string name="entropy">Entropy</string>
     <string name="misc_controls">Miscellaneous Controls</string>
     <string name="build_prop_editor">Build prop Editor</string>
     <string name="profile">Profile</string>
@@ -88,10 +94,11 @@
     <string name="sensor_ind_wakelock_summary">Prevent wakelock when Ambient Display disabled.</string>
 
     <!-- Frequency Table -->
+    <string name="big" translatable="false">Big</string>
+    <string name="little" translatable="false">Little</string>
     <string name="unused_cpu_states">Unused CPU states</string>
     <string name="uptime">Uptime</string>
     <string name="deep_sleep">Deep Sleep</string>
-    <string name="refresh">Refresh</string>
     <string name="reset_timer">Reset Timers</string>
     <string name="restore_timer">Restore Timers</string>
 
@@ -152,6 +159,7 @@
     <string name="idle_frequency_summary">If this first core is below this frequency, then don\'t plug the other cores.</string>
     <string name="touch_boost_time">Touch Boost Time</string>
     <string name="boost_frequecy_core">Boost Frequency Core %d</string>
+    <string name="input_boost_freq_core">Input Boost Frequency Core %s</string>
     <string name="start_delay">Start delay</string>
     <string name="start_delay_summary">Time until Hotplug starts to work.</string>
     <string name="delay_summary">Time between checks.</string>
@@ -316,6 +324,14 @@
     <string name="laziness_summary">This increases the threshold to ramp up or down GPU frequencies. The lower it is, the more performance you get.</string>
     <string name="ramp_thresold">Ramp Thresold</string>
     <string name="ramp_thresold_summary">This increases the number of times the GPU governor ramp down requests. The higher it is, the more performance you get.</string>
+    <string name="adreno_idler" translatable="false">Adreno Idler</string>
+    <string name="adreno_idler_summary">An efficient workaround for msm-adreno-tz\'s overheads.</string>
+    <string name="down_differential">Down Differenctial</string>
+    <string name="down_differential_summary">Threshold for determining if the given workload is idle.</string>
+    <string name="idle_wait">Idle Wait</string>
+    <string name="idle_wait_summary">Number of events to wait before ramping down the frequency. The idlewait\'th events before current one must be all idle before Adreno idler ramps down the frequency. This implementation is to prevent micro-lags on scrolling or playing games. Adreno idler will more actively try to ramp down the frequency if this is set to a lower value.</string>
+    <string name="workload">Workload</string>
+    <string name="workload_summary">Adreno idler will more actively try to ramp down the frequency if this is set to a higher value.</string>
 
     <!-- Screen -->
     <string name="red">Red</string>
@@ -433,6 +449,14 @@
     <string name="light">Light</string>
     <string name="medium">Medium</string>
     <string name="very_aggressive">Very Aggressive</string>
+    <string name="adaptive">Adaptive Low Memory Killer</string>
+    <string name="adaptive_summary">Make LMK more aggressive dynamically when a thrashing scenario is detected.</string>
+
+    <!-- Entropy -->
+    <string name="available">Available</string>
+    <string name="poolsize">Poolsize</string>
+    <string name="read">Read</string>
+    <string name="write">Write</string>
 
     <!-- Misc Controls -->
     <string name="tcp">TCP Congestion Algorithm</string>
@@ -481,9 +505,11 @@
     <string name="reboot">Reboot</string>
     <string name="reboot_recovery">Reboot Recovery</string>
     <string name="reboot_bootloader">Reboot Bootloader</string>
+    <string name="reboot_soft">Soft Reboot</string>
     <string name="reboot_download">Reboot Download</string>
     <string name="cwm_recovery">CWM Recovery</string>
     <string name="twrp">TWRP</string>
+    <string name="confirm">Are you sure?</string>
     <string name="actions">Actions</string>
     <string name="wipe_data">Wipe Data</string>
     <string name="wipe_cache">Wipe Cache</string>
@@ -527,6 +553,10 @@
     <string name="Circle" translatable="false" >Circle redux</string>
     <string name="by_Cleanmaster" translatable="false" >Clean master app</string>
     <string name="gradle" translatable="false" >Gradle 2.1rc</string>
+    <string name="gpu_min_freq_summary">Set the minimum frequency the GPU scales down to.</string>
+    <string name="gpu_min_freq">GPU Minimum Frequency</string>
+    <string name="execute">Execute</string>
+    <string name="brightness_mode">Use exponential backlight mode instead of linear mode.</string>
 
     <!--español Hola espero que te agrade mi trabajo, no estás obligado a donar pero si aun asi lo deseas tu donativo será apreciado :)-->
 </resources>
