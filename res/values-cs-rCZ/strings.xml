@@ -57,7 +57,15 @@
   <string name="io_scheduler">I/O plánovač</string>
   <string name="ksm">Slučování sdílených částí paměti jádrem</string>
   <string name="low_memory_killer">Ukončovač aplikací</string>
+  <string name="virtual_memory">Virtuální paměť</string>
+  <string name="misc_controls">Různé ovládací prvky</string>
+  <string name="build_prop_editor">Editor build.prop</string>
+  <string name="profile">Profil</string>
+  <string name="recovery">Přejít do Recovery</string>
+  <string name="settings">Nastavení</string>
+  <string name="about_us">O nás</string>
   <!-- Virtual Memory -->
+  <string name="zram">Z-RAM</string>
   <string name="disksize">Velikost disku</string>
   <string name="disksize_summary">Pokus o zvýšení výkonu zamezením stránkování na fyzické uložiště. Pro stránkování bude přednostně použito komprimované virtuální zařízení v paměti RAM, dokud nebude nutné použít odkládací prostor na fyzickém uložišti.</string>
   <!--Misc-->
@@ -114,6 +122,24 @@
   <!-- CPU Hotplug -->
   <string name="msm_mpdecision_hotplug">MSM MPDecision Hotplug</string>
   <string name="mpdecision_summary">Hotplugging řešení Qualcommu. Pokud je toto povoleno, můžete mít problémy se změnou frekvencí.</string>
+  <string name="screen_off_single_core">Používat jedno jádro při vypnuté obrazovce</string>
+  <string name="mb_hotplug_summary">Náhrada za Qualcomm MPDecision v jádře. Vyvinul show-p1984.</string>
+  <string name="screen_off_single_core_summary">Používat pouze jedno jádro, když je displej vypnut.</string>
+  <string name="idle_frequency">Frekvence při nečinnosti</string>
+  <string name="idle_frequency_summary">Pokud je první jádro pod touto frekvencí, pak nepřipojovat další jádra.</string>
+  <string name="touch_boost_time">Doba zrychlení při dotyku</string>
+  <string name="boost_frequecy_core">Zvýšení frekvence jádra %d</string>
+  <string name="start_delay">Prodleva spuštění</string>
+  <string name="start_delay_summary">Doba než hotplug začne pracovat.</string>
+  <string name="delay_summary">Čas mezi kontrolami.</string>
+  <string name="pause">Pozastavit</string>
+  <string name="pause_summary">Je-li něco jiného připojené v CPU, zastaví se pro tuto dobu.</string>
+  <string name="intelliplug_summary">Nahrazení MPDecision od faux123.</string>
+  <string name="down_timer_cnt_summary">Časovač řízení pro neaktivní jádra.</string>
+  <string name="msm_hotplug">MSM Hotplug</string>
+  <string name="max_cpus_screen_off">Maximální počet aktivních jader CPU při vypnutí obrazovky</string>
+  <string name="max_cpus_screen_off_summary">Maximální počet aktivních jader CPU při vypnutí obrazovky.</string>
+  <string name="history_size">Velikost historie</string>
   <!-- Thermal -->
   <!-- GPU -->
   <!-- Screen -->
