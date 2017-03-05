@@ -47,6 +47,7 @@
   <!-- Tabs -->
   <string name="frequency_table">Tabla de frecuencias</string>
   <string name="kernel_information">Información de kernel</string>
+  <string name="cpu_temp">Temperatura de la CPU</string>
   <string name="cpu_voltage">Voltaje de la CPU</string>
   <string name="cpu_hotplug">CPU Hotplug</string>
   <string name="thermal">Térmico</string>
