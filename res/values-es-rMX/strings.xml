@@ -59,6 +59,7 @@
   <string name="ksm">Kernel Samepage Merging</string>
   <string name="low_memory_killer">Low Memory Killer</string>
   <string name="virtual_memory">Memoria virtual</string>
+  <string name="entropy">Entropía</string>
   <string name="misc_controls">Controles varios</string>
   <string name="build_prop_editor">Editor de Build.prop</string>
   <string name="profile">Perfil</string>
@@ -130,6 +131,7 @@
   <string name="idle_frequency_summary">Si este primer núcleo está por debajo de esta frecuencia, entonces no conecte los otros núcleos.</string>
   <string name="touch_boost_time">Touch Boost Time</string>
   <string name="boost_frequecy_core">Frecuencia de impulso núcleo %d</string>
+  <string name="input_boost_freq_core">Aumentar frecuencia del núcleo %s</string>
   <string name="start_delay">Retraso del inicio</string>
   <string name="start_delay_summary">Tiempo hasta que Hotplug comienza a trabajar.</string>
   <string name="delay_summary">Tiempo entre comprobaciones.</string>
@@ -283,6 +285,13 @@
   <string name="laziness_summary">Esto aumenta el umbral aumentando o disminuyendo las frecuencias de la GPU. Valores bajos, un mayor rendimiento.</string>
   <string name="ramp_thresold">Rampa de Umbral</string>
   <string name="ramp_thresold_summary">Esto incrementa el número de veces que el gobernador detenga solicitudes. Cuanto mayor sea el valor, un mayor rendimiento.</string>
+  <string name="adreno_idler_summary">Una solución eficiente para los gastos generales de msm-adreno-tz.</string>
+  <string name="down_differential">Diferencial hacia abajo</string>
+  <string name="down_differential_summary">Umbral para determinar si la carga de trabajo dada está inactiva.</string>
+  <string name="idle_wait">Espera inactiva</string>
+  <string name="idle_wait_summary">Número de eventos a esperar antes de reducir la frecuencia. Los eventos de idlewait\'th anteriores a la corriente deben estar todos inactivos antes de que el Adreno ralentice la frecuencia. Esta implementación es para evitar micro-retrasos en el desplazamiento o juegos. Adreno Idler intentará activamente reducir la frecuencia si se establece en un valor inferior.</string>
+  <string name="workload">Carga de trabajo</string>
+  <string name="workload_summary">Adreno Idler intentará activamente bajar la frecuencia si se ajusta a un valor más alto.</string>
   <!-- Screen -->
   <string name="red">Rojo</string>
   <string name="green">Verde</string>
@@ -389,7 +398,12 @@
   <string name="light">Ligero</string>
   <string name="medium">Medio</string>
   <string name="very_aggressive">Muy agresivo</string>
+  <string name="adaptive">Adaptativo Lmk</string>
+  <string name="adaptive_summary">Hacer LMK más agresivo dinámicamente cuando se detecta un escenario de thrashing.</string>
   <!-- Entropy -->
+  <string name="available">Disponible</string>
+  <string name="read">Lectura</string>
+  <string name="write">Escritura</string>
   <!-- Misc Controls -->
   <string name="tcp">Algoritmo de congestión TCP</string>
   <string name="tcp_summary">Protocolo de control de transmisión es uno de los principales protocolos de la suite de protocolo de Internet (IP), comúnmente llamado TCP/IP.</string>
@@ -434,9 +448,11 @@
   <string name="reboot">Reiniciar</string>
   <string name="reboot_recovery">Reiniciar en Recovery</string>
   <string name="reboot_bootloader">Reiniciar en Bootloader</string>
+  <string name="reboot_soft">Reinicio rápido</string>
   <string name="reboot_download">Reiniciar en modo descarga</string>
   <string name="cwm_recovery">Recovery CWM</string>
   <string name="twrp">TWRP</string>
+  <string name="confirm">¿Estás seguro?</string>
   <string name="actions">Acciones</string>
   <string name="wipe_data">Borrar Datos</string>
   <string name="wipe_cache">Borrar Caché</string>
@@ -467,5 +483,9 @@
   <string name="donate_summary">Hola espero que te guste mi trabajo, no es obligatorio donar \npero aún así si lo deseas, tu donación será apreciada :) </string>
   <string name="profile_support">Perfiles de soporte </string>
   <string name="database_support">Soporte de base de datos de perfiles</string>
+  <string name="gpu_min_freq_summary">Ajustar la frecuencia mínima de a que la GPU escala hacia abajo.</string>
+  <string name="gpu_min_freq">Frecuencia Mínima de la GPU</string>
+  <string name="execute">Ejecutar</string>
+  <string name="brightness_mode">Utilice el modo de luz de fondo exponencial en lugar del modo lineal.</string>
   <!--español Hola espero que te agrade mi trabajo, no estás obligado a donar pero si aun asi lo deseas tu donativo será apreciado :)-->
 </resources>
