@@ -47,6 +47,7 @@
   <!-- Tabs -->
   <string name="frequency_table">Tabela częstotliwości</string>
   <string name="kernel_information">Informacje o kernelu</string>
+  <string name="cpu_temp">Temperatura CPU</string>
   <string name="cpu_voltage">Napięcie CPU</string>
   <string name="cpu_hotplug">CPU Hotplug</string>
   <string name="thermal">Termiczne</string>
@@ -58,6 +59,7 @@
   <string name="ksm">Łączenie stron kernela</string>
   <string name="low_memory_killer">Zarządca niskiego poziomu pamięci</string>
   <string name="virtual_memory">Pamięć wirtualna</string>
+  <string name="entropy">Entropia</string>
   <string name="misc_controls">Pozostałe ustawienia</string>
   <string name="build_prop_editor">Edytor build prop</string>
   <string name="profile">Profil</string>
@@ -84,8 +86,48 @@
   <!-- CPU -->
   <string name="cpu_usage">Użycie CPU</string>
   <string name="current_freq">Aktualna częstotliwość</string>
+  <string name="core">Rdzeń %d</string>
+  <string name="offline">Nieaktywny</string>
+  <string name="cpu_max_freq">Maks. częstotliwość CPU</string>
+  <string name="cpu_max_freq_summary">Ustawia maksymalną częstotliwość jaką będzie mógł osiągnąć procesor.</string>
+  <string name="cpu_min_freq">Min. częstotliwość CPU</string>
+  <string name="cpu_min_freq_summary">Ustawia minimalną częstotliwość jaką będzie mógł osiągnąć procesor.</string>
+  <string name="cpu_max_screen_off_freq">Maks. częstotliwość CPU w spoczynku</string>
+  <string name="cpu_max_screen_off_freq_summary">Ustawia maksymalną częstotliwość jaką będzie mógł osiągnąć procesor przy zablokowanym ekranie.</string>
+  <string name="cpu_governor">Zarządca CPU</string>
+  <string name="cpu_governor_summary">Zarządca CPU określa w jaki sposób zachowuje się procesor w odpowiedzi na obciążenie. Zmiana zarządcy determinuje sposób dobierania dostępnych częstotliwości.</string>
+  <string name="cpu_governor_tunables">Konfiguracja zarządcy procesora</string>
+  <string name="cpu_governor_tunables_summary">Różne opcje konfiguracji obecnego zarządcy.</string>
+  <string name="not_tunable">Nie można zmienić %s</string>
+  <string name="mc_power_saving">Wielordzeniowe oszczędzanie energii</string>
+  <string name="mc_power_saving_summary">Próbuje przypisywać zadania do jak najmniejszej liczby rdzeni.</string>
+  <string name="cfs_scheduler_policy">Zarządzanie CFS</string>
+  <string name="cfs_scheduler_policy_summary">Decyduje jak zarządca CFS rozkłada zadania na różne podzespoły CPU.</string>
+  <string name="disabled">Wyłączone</string>
+  <string name="enabled">Włączone</string>
+  <string name="aggressive">Agresywny</string>
+  <string name="temp_limit">Limit temperatury</string>
+  <string name="temp_limit_summary">Gdy temperatura osiągnie zadaną wartość, częstotliwość procesora zostanie obniżona w celu jego schłodzenia.</string>
+  <string name="cpu_boost">Zwiększenie taktowania CPU</string>
+  <string name="debug_mask">Maska Debugowania</string>
+  <string name="debug_mask_summary">Pozwala aktywować maskę debugowania dla operacji Zwiększenia taktowania a CPU.</string>
+  <string name="interval">Interwał</string>
+  <string name="interval_summary">Minimalny interwał dla operacji Zwiększenia taktowania CPU.</string>
+  <string name="sync_threshold">Próg synchronizacji</string>
+  <string name="sync_threshold_summary">Wartość, do jakiej zostanie zwiększone taktowanie rdzenia, gdy jego obciążenie przekroczy ustalony poziom.</string>
+  <string name="input_interval">Interwał wejścia</string>
+  <string name="input_boost_freq">Zwiększenie taktowania podczas dotyku</string>
+  <string name="input_boost_freq_summary">Wartość, do jakiej zostanie zwiększone taktowanie rdzenia po wykryciu dotyku.</string>
   <!-- CPU Voltage -->
+  <string name="global_offset">Zmiany Globalne</string>
   <!-- CPU Hotplug -->
+  <string name="msm_mpdecision_hotplug">MSM MPDecision Hotplug</string>
+  <string name="mpdecision_summary">Rozwiązanie hotpluggingu od QCOM. Możesz mieć problem ze zmianą częstotliwości kiedy jest on włączony.</string>
+  <string name="screen_off_single_core">Pojedynczy rdzeń przy wygaszonym ekranie</string>
+  <string name="mb_hotplug_summary">Alternatywa dla hotpluga MPDecision Qualcomm\'a. Rozwijany przez show-p1984.</string>
+  <string name="screen_off_single_core_summary">Używa tylko jednego rdzenia gdy ekran jest wyłączony.</string>
+  <string name="idle_frequency">Taktowanie w spoczynku</string>
+  <string name="idle_frequency_summary">Wartość taktowania, poniżej której reszta rdzeni pozostanie wyłączona.</string>
   <string name="balanced">Zbalansowany</string>
   <string name="performance">Wydajny</string>
   <string name="conservative">Tradycyjny</string>
