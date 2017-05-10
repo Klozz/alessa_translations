@@ -357,6 +357,8 @@
   <string name="power_key_suspend_summary">Activar esto apaga los controladores de encendido cuando la pantalla se apaga con la tecla de encendido.</string>
   <!-- Sound -->
   <string name="sound_control">Control de Sonido</string>
+  <string name="headset_highperf_mode">Modo alto rendimiento del auricular</string>
+  <string name="dac_hi_performance">Activador HI-Performance DAC</string>
   <string name="headphone_gain">Ganancia de audífonos</string>
   <string name="handset_microphone_gain">Ganancia del micrófono</string>
   <string name="cam_microphone_gain">Ganancia del micrófono de la cámara</string>
@@ -402,6 +404,7 @@
   <string name="adaptive_summary">Hacer LMK más agresivo dinámicamente cuando se detecta un escenario de thrashing.</string>
   <!-- Entropy -->
   <string name="available">Disponible</string>
+  <string name="poolsize">Poolsize</string>
   <string name="read">Lectura</string>
   <string name="write">Escritura</string>
   <!-- Misc Controls -->
