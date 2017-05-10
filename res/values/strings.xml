@@ -71,7 +71,7 @@
     <string name="screen">Screen</string>
     <string name="high_brightness_mode">High Brightness Mode</string>
     <string name="wake">Wake Functions</string>
-    <string name="sound" translatable="false" >FauxSound</string>
+    <string name="sound" translatable="false" >Sound Control</string>
     <string name="battery">Battery</string>
     <string name="io_scheduler">I/O Scheduler</string>
     <string name="ksm">Kernel Samepage Merging</string>
@@ -404,6 +404,8 @@
 
     <!-- Sound -->
     <string name="sound_control">Sound Control</string>
+    <string name="headset_highperf_mode">Headset High Performance Mode</string>
+    <string name="dac_hi_performance">Hi-Performance DAC Enabler</string>
     <string name="headphone_gain">Headphone Gain</string>
     <string name="handset_microphone_gain">Handset Microphone Gain</string>
     <string name="cam_microphone_gain">Camcorder Microphone Gain</string>
@@ -557,6 +559,4 @@
     <string name="gpu_min_freq">GPU Minimum Frequency</string>
     <string name="execute">Execute</string>
     <string name="brightness_mode">Use exponential backlight mode instead of linear mode.</string>
-
-    <!--español Hola espero que te agrade mi trabajo, no estás obligado a donar pero si aun asi lo deseas tu donativo será apreciado :)-->
 </resources>
