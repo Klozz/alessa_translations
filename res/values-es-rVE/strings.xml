@@ -27,21 +27,21 @@
   <string name="no_root">Acceso root no disponible</string>
   <string name="no_busybox">Busybox no disponible</string>
   <string name="loading">Cargando</string>
-  <string name="ok">Aceptar</string>
+  <string name="ok">OK</string>
   <string name="cancel">Cancelar</string>
-  <string name="current_value_not_supported">Valor actual no compatible</string>
+  <string name="current_value_not_supported">El valor actual no es compatible</string>
   <!-- Apply on boot -->
   <string name="apply_on_boot">Aplicar en el arranque</string>
-  <string name="apply_on_boot_finished">Los cambios se han aplicado</string>
-  <string name="apply_on_boot_time">Aplicar la configuración en %d segundos</string>
-  <string name="apply_on_boot_enabled">Habilitado aplicar en arranque para %s sección</string>
-  <string name="apply_on_boot_disabled">Desactivar aplicar en el arranque para la sección %s</string>
-  <string name="apply_on_boot_failed">No se pudo aplicar la configuración en el arranque</string>
+  <string name="apply_on_boot_finished">Tus cambios han sido aplicados</string>
+  <string name="apply_on_boot_time">Aplicando su configuración en %d segundos</string>
+  <string name="apply_on_boot_enabled">Activado, aplicar en el arranque para la sección %s</string>
+  <string name="apply_on_boot_disabled">Desactivado, aplicar en el arranque para la sección %s</string>
+  <string name="apply_on_boot_failed">Error al aplicar la configuración en el arranque</string>
   <!-- Units -->
   <!-- Special signs -->
   <!-- Headers -->
   <string name="information">Información</string>
-  <string name="kernel">Núcleo</string>
+  <string name="kernel">Kernel</string>
   <string name="tools">Herramientas</string>
   <string name="other">Otros</string>
   <!-- Tabs -->
