@@ -24,16 +24,85 @@
   ~
   -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="no_root">Root non disponible</string>
+  <string name="no_busybox">Busybox non disponible</string>
+  <string name="loading">Chargement</string>
+  <string name="ok">Ok</string>
+  <string name="cancel">Annuler</string>
+  <string name="current_value_not_supported">La valeur actuelle n\'est pas supportée</string>
   <!-- Apply on boot -->
+  <string name="apply_on_boot">Appliquer au démarrage</string>
+  <string name="apply_on_boot_finished">Vos modifications ont été appliquées</string>
+  <string name="apply_on_boot_time">Application de vos paramètres dans %d secondes</string>
+  <string name="apply_on_boot_enabled">Applicage au démarrage activé pour la section %s</string>
+  <string name="apply_on_boot_disabled">Applicage au démarrage désactivé pour la section %s</string>
+  <string name="apply_on_boot_failed">Impossible d\'appliquer les paramètres au démarrage</string>
   <!-- Units -->
   <!-- Special signs -->
   <!-- Headers -->
+  <string name="information">Informations</string>
+  <string name="kernel">Kernel</string>
+  <string name="tools">Outils</string>
+  <string name="other">Autre</string>
   <!-- Tabs -->
+  <string name="frequency_table">Table des Frequences</string>
+  <string name="kernel_information">Informations du Kernel</string>
+  <string name="cpu_temp">Température du CPU</string>
+  <string name="cpu_voltage">Voltage du CPU</string>
+  <string name="cpu_hotplug">CPU Hotplug</string>
+  <string name="thermal">Thermique</string>
+  <string name="screen">Écran</string>
+  <string name="high_brightness_mode">Mode haute luminosité</string>
+  <string name="wake">Fonctions d\'allumage</string>
+  <string name="battery">Batterie</string>
+  <string name="io_scheduler">Ordonnanceur d\'I/O</string>
+  <string name="ksm">Kernel Samepage Merging</string>
+  <string name="low_memory_killer">Tueur de tâches lorsque mémoire faible</string>
+  <string name="virtual_memory">Mémoire Virtuelle</string>
+  <string name="entropy">Entropie</string>
+  <string name="misc_controls">Options diverses</string>
+  <string name="build_prop_editor">Editeur Build prop</string>
+  <string name="profile">Profil</string>
+  <string name="recovery">Recovery</string>
+  <string name="settings">Paramètres</string>
+  <string name="about_us">À propos de nous</string>
   <!-- Virtual Memory -->
+  <string name="zram">Z-RAM</string>
+  <string name="disksize">Taille du disque</string>
+  <string name="disksize_summary">Tentatives d\'amélioration des performances en évitant l\'utilisation du disque de stockage, mais à la place utiliser un appareil virtuel compresser dans la mémoire vive. Le chargement se fait dans la mémoire vive jusqu\'à qu\'il soit nécessaire d\'utiliser l\'espace de SWAP réserver sur le disque de stockage.</string>
   <!--Misc-->
   <!-- Frequency Table -->
+  <string name="unused_cpu_states">États des processeurs inutilisés</string>
+  <string name="uptime">Temps de fonctionnement</string>
+  <string name="deep_sleep">Veille profonde</string>
+  <string name="reset_timer">Remettre à zéro les compteurs</string>
+  <string name="restore_timer">Restaurer les Compteurs</string>
   <!-- Kernel Information -->
+  <string name="kernel_version">Version du Kernel</string>
+  <string name="cpu_information">Informations sur le processeur</string>
+  <string name="memory_information">Informations sur la mémoire</string>
   <!-- CPU -->
+  <string name="cpu_usage">Utilisation du processeur</string>
+  <string name="current_freq">Fréquence actuelle</string>
+  <string name="core">Coeur %d</string>
+  <string name="offline">Hors-ligne</string>
+  <string name="cpu_max_freq">Fréquence Maximale du Processeur</string>
+  <string name="cpu_max_freq_summary">Définir la fréquence maximale du PROCESSEUR.</string>
+  <string name="cpu_min_freq">Fréquence Minimale du PROCESSEUR</string>
+  <string name="cpu_min_freq_summary">Définir la fréquence minimale du PROCESSEUR.</string>
+  <string name="cpu_max_screen_off_freq">Fréquence Maximale du processeur écran Eteint</string>
+  <string name="cpu_max_screen_off_freq_summary">Définir la fréquence maximale du processeur écran éteint.</string>
+  <string name="cpu_governor">Gouverneur du CPU</string>
+  <string name="cpu_governor_summary">Le gouverneur de CPU détermine la façon dont le CPU se comporte en réponse à des changements dans la charge de travail. Changer le gouverneur aura un impact sur la manière dont le CPU s\'adapte selon les fréquences disponibles du CPU.</string>
+  <string name="cpu_governor_tunables">CPU gouverneur modifiables</string>
+  <string name="cpu_governor_tunables_summary">Les divers éléments de configuration qui dépendent du Gouverneur.</string>
+  <string name="not_tunable">%s n\'est pas modifiable</string>
+  <string name="mc_power_saving">Économie d\'énergie multicœurs</string>
+  <string name="mc_power_saving_summary">Essayez de regrouper les tâches en le moins de cœurs possible.</string>
+  <string name="disabled">Désactivé</string>
+  <string name="enabled">Activé</string>
+  <string name="aggressive">Aggresif</string>
+  <string name="temp_limit">Limite de Température</string>
   <!-- CPU Voltage -->
   <!-- CPU Hotplug -->
   <!-- Thermal -->
