@@ -24,16 +24,73 @@
   ~
   -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="no_root">Acces root indisponibil</string>
+  <string name="no_busybox">Busybox nu este disponibil</string>
+  <string name="loading">Încărcare</string>
+  <string name="ok">OK</string>
+  <string name="cancel">Anulare</string>
+  <string name="current_value_not_supported">Valoarea curentă nu este susținută</string>
   <!-- Apply on boot -->
+  <string name="apply_on_boot">Aplicare la pornire</string>
+  <string name="apply_on_boot_finished">Modificările au fost aplicate</string>
+  <string name="apply_on_boot_time">Aplicarea setărilor dvs. în %d secunde</string>
+  <string name="apply_on_boot_enabled">Este activată aplicare la pornire pentru secţiunea %s</string>
+  <string name="apply_on_boot_disabled">Este dezactivată aplicare la pornire pentru secţiunea %s</string>
+  <string name="apply_on_boot_failed">Activare eşuată aplicare la pornire</string>
   <!-- Units -->
   <!-- Special signs -->
   <!-- Headers -->
+  <string name="information">Informaţii</string>
+  <string name="kernel">Nucleu</string>
+  <string name="tools">Instrumente</string>
+  <string name="other">Altele</string>
   <!-- Tabs -->
+  <string name="frequency_table">Tabel de frecvenţe</string>
+  <string name="kernel_information">Informaţii nucleu</string>
+  <string name="about_us">Despre noi</string>
   <!-- Virtual Memory -->
+  <string name="zram">Z-RAM</string>
+  <string name="disksize">Dimensiune disc</string>
+  <string name="disksize_summary">Încercări de a spori performanța prin evitarea paginării pe spațiul de stocare fizic, folosind în schimb un dispozitiv virtual comprimat în RAM. Paging-ul are loc în memoria RAM până când este necesar să se folosească spațiul de stocare în memoria fizică.</string>
   <!--Misc-->
+  <string name="sensor_ind_wakelock">wakelock sensor_ind</string>
+  <string name="sensor_ind_wakelock_summary">Prevenire wakelock când Afişare Ambient este dezactivată.</string>
   <!-- Frequency Table -->
+  <string name="unused_cpu_states">Stările neutilizate ale procesorului</string>
+  <string name="uptime">Timp de funcționare</string>
+  <string name="deep_sleep">Somn profund</string>
+  <string name="reset_timer">Resetați temporizatoarele</string>
+  <string name="restore_timer">Restabiliţi temporizatoarele</string>
   <!-- Kernel Information -->
+  <string name="kernel_version">Versiune nucleu</string>
+  <string name="cpu_information">Informaţii CPU</string>
+  <string name="memory_information">Informaţii memorie</string>
   <!-- CPU -->
+  <string name="cpu_usage">Utilizare CPU</string>
+  <string name="current_freq">Frecvenţă actuală</string>
+  <string name="core">Nucleul %d</string>
+  <string name="offline">Deconectat</string>
+  <string name="cpu_max_freq">Frecvenţă maximă CPU</string>
+  <string name="cpu_max_freq_summary">Stabiliți frecvența maximă pe care CPU o ajustează.</string>
+  <string name="cpu_min_freq">Frecvenţă minimă CPU</string>
+  <string name="cpu_min_freq_summary">Setați valoarea minimă la care scade frecvenţa procesorului.</string>
+  <string name="cpu_max_screen_off_freq">Frecvența maximă a procesorului când ecranul este oprit</string>
+  <string name="cpu_max_screen_off_freq_summary">Setați frecvența maximă a procesorului când ecranul este oprit.</string>
+  <string name="cpu_governor">Regulator CPU</string>
+  <string name="cpu_governor_summary">Regulatorul procesorului determină modul în care procesorul se comportă ca răspuns la modificările volumului de lucru. Schimbarea regulatorului va afecta modul în care procesorul trece de la o frecvenţă la alta.</string>
+  <string name="cpu_governor_tunables">Variabilele Regulatorului CPU</string>
+  <string name="cpu_governor_tunables_summary">Diferitele elemente de configurare care sunt dependente de regulator.</string>
+  <string name="not_tunable">%s nu este reglabilă</string>
+  <string name="mc_power_saving">Economisire energiei multi-nucleu</string>
+  <string name="mc_power_saving_summary">Încearcă gruparea sarcinilor în cel mai mic număr posibil de nuclee.</string>
+  <string name="cfs_scheduler_policy">Politică planificator CFS</string>
+  <string name="cfs_scheduler_policy_summary">Politica decide planificatorul CFS cum să echilibreze sarcinile pe diferite unități CPU.</string>
+  <string name="disabled">Dezactivat</string>
+  <string name="enabled">Activat</string>
+  <string name="aggressive">Agresiv</string>
+  <string name="temp_limit">Limita de temperatură</string>
+  <string name="temp_limit_summary">Dacă temperatura creşte, frecvența procesorului va fi micşorată pentru a reduce temperatura.</string>
+  <string name="cpu_boost">Accelerare CPU</string>
   <!-- CPU Voltage -->
   <!-- CPU Hotplug -->
   <!-- Thermal -->
