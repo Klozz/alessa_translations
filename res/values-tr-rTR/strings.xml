@@ -55,13 +55,67 @@
   <string name="high_brightness_mode">Yüksek Parlaklık modu</string>
   <string name="wake">Uyandırma Fonksiyonları</string>
   <string name="battery">Batarya</string>
+  <string name="io_scheduler">I/O Zamanlayıcısı</string>
+  <string name="ksm">Çekirdek Benzer Sayfa Birleştirmesi</string>
+  <string name="low_memory_killer">Düşük Bellek Sonlandırıcı</string>
+  <string name="virtual_memory">Sanal Bellek</string>
+  <string name="entropy">Entropi</string>
+  <string name="misc_controls">Çeşitli denetimler</string>
+  <string name="build_prop_editor">Build prop Düzenleyici</string>
+  <string name="profile">Profil</string>
+  <string name="recovery">Kurtarma Modu</string>
+  <string name="settings">Ayarlar</string>
+  <string name="about_us">Hakkında</string>
   <!-- Virtual Memory -->
+  <string name="zram">Z-RAM</string>
+  <string name="disksize">Disk boyutu</string>
+  <string name="disksize_summary">RAM\'de sıkıştırılmış bir sanal aygıtı kullanmak yerine fiziksel depolama biriminde disk belleği oluşturmayı önleyerek performansı artırmayı dener. Belirleme, fiziksel depolama alanındaki takas alanını kullanana kadar RAM\'de gerçekleşir.</string>
   <!--Misc-->
+  <string name="sensor_ind_wakelock">sensor_ind Uyandırma kilidi</string>
+  <string name="sensor_ind_wakelock_summary">Ambient Ekran devre dışı bırakıldığında uyanmayı önle.</string>
   <!-- Frequency Table -->
+  <string name="unused_cpu_states">Kullanılmayan CPU bölümü</string>
+  <string name="uptime">Çalışma süresi</string>
+  <string name="deep_sleep">Derin Uyku</string>
+  <string name="reset_timer">Yeniden Zamanlayıcı</string>
+  <string name="restore_timer">Sayaçları Eski Haline Getir</string>
   <!-- Kernel Information -->
+  <string name="kernel_version">Çekirdek Sürümü</string>
+  <string name="cpu_information">CPU Bilgisi</string>
+  <string name="memory_information">Bellek Bilgisi</string>
   <!-- CPU -->
+  <string name="cpu_usage">İşlemci Kullanımı</string>
+  <string name="current_freq">Geçerli Frekans</string>
+  <string name="core">Çekirdek %d</string>
   <!-- CPU Voltage -->
   <!-- CPU Hotplug -->
+  <string name="balanced">Dengeli</string>
+  <string name="performance">Performans</string>
+  <string name="conservative">Ölçülü</string>
+  <string name="strict">Sıkı</string>
+  <string name="eco_mode_summary">IntelliPlug için pil tasarrufu modu.</string>
+  <string name="touch_boost">Dokunmatik Hızlandırma</string>
+  <string name="touch_boost_summary">Bu ekrana dokunursanız veya bir düğmeye basarsanız, minimum CPU hızınızı artıracaktır.</string>
+  <string name="hysteresis">Gecikme Değeri</string>
+  <string name="hysteresis_summary">Düşürdükçe tepki hızlanacaktır.</string>
+  <string name="threshold">Eşik Değeri</string>
+  <string name="debug">Hata ayıklama</string>
+  <string name="debug_summary">İşlemler için hata ayıklama maskesini etkinleştirmenizi sağlar.</string>
+  <string name="suspend">Askıya Al</string>
+  <string name="suspend_summary">Askıdan al.</string>
+  <string name="cpus_boosted">İşlemci Hızlandırıldı</string>
+  <string name="cpus_boosted_summary">Aynı anda hızlandırılan maksimum işlemci sayısı.</string>
+  <string name="min_cpus_online">En az CPU aktif</string>
+  <string name="min_cpus_online_summary">Herhangi bir zamanda en az CPU aktif.</string>
+  <string name="max_cpus_online">en çok aktif CPU</string>
+  <string name="max_cpus_online_summary">Herhangi bir zamanda en az CPU aktif.</string>
+  <string name="max_cpus_online_susp">Max CPU ekran kapalı</string>
+  <string name="max_cpus_online_susp_summary">Ekran kapalıyken maksimum işlemci cekirdeği.</string>
+  <string name="suspend_defer_time">Askıya Alma Zamanını Erteleme</string>
+  <string name="defer_sampling">Örnekleme Erteleme</string>
+  <string name="boost_lock_duration">Kilit Süresini Artırma</string>
+  <string name="boost_lock_duration_summary">İşlemciyi hızlandırmak için minimum aralık.</string>
+  <string name="down_lock_duration">Kilide Alma Süresi</string>
   <!-- Thermal -->
   <!-- GPU -->
   <!-- Screen -->
