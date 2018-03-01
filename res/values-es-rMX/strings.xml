@@ -24,15 +24,15 @@
   ~
   -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-  <string name="no_root">Acceso root no disponible</string>
-  <string name="no_busybox">Busybox no disponible</string>
+  <string name="no_root">No hay root disponible</string>
+  <string name="no_busybox">No se encuentra disponible busybox</string>
   <string name="loading">Cargando</string>
-  <string name="ok">Aceptar</string>
+  <string name="ok">Ok</string>
   <string name="cancel">Cancelar</string>
-  <string name="current_value_not_supported">Valor actual no compatible</string>
+  <string name="current_value_not_supported">Valor actual no es soportado</string>
   <!-- Apply on boot -->
-  <string name="apply_on_boot">Aplicar en el arranque</string>
-  <string name="apply_on_boot_finished">Los cambios se han aplicado</string>
+  <string name="apply_on_boot">Aplicar en el boot</string>
+  <string name="apply_on_boot_finished">Tus cambios se han aplicado</string>
   <string name="apply_on_boot_time">Aplicar la configuración en %d segundos</string>
   <string name="apply_on_boot_enabled">Habilitado aplicar en arranque para %s sección</string>
   <string name="apply_on_boot_disabled">Desactivar aplicar en el arranque para la sección %s</string>
@@ -40,21 +40,21 @@
   <!-- Units -->
   <!-- Special signs -->
   <!-- Headers -->
-  <string name="information">Información</string>
-  <string name="kernel">Núcleo</string>
+  <string name="information">Informacion</string>
+  <string name="kernel">Kernel</string>
   <string name="tools">Herramientas</string>
-  <string name="other">Otros</string>
+  <string name="other">Otro</string>
   <!-- Tabs -->
-  <string name="frequency_table">Tabla de frecuencias</string>
-  <string name="kernel_information">Información de kernel</string>
-  <string name="cpu_temp">Temperatura de la CPU</string>
-  <string name="cpu_voltage">Voltaje de la CPU</string>
+  <string name="frequency_table">Tabla de frecuencia</string>
+  <string name="kernel_information">Información del kernel</string>
+  <string name="cpu_temp">Temperatura del CPU</string>
+  <string name="cpu_voltage">Voltaje del CPU</string>
   <string name="cpu_hotplug">CPU Hotplug</string>
   <string name="thermal">Térmico</string>
   <string name="screen">Pantalla</string>
-  <string name="high_brightness_mode">Modo brillo alto</string>
+  <string name="high_brightness_mode">Modo de brillo alto</string>
   <string name="wake">Func. para encender/apagar la pantalla</string>
-  <string name="battery">Batería</string>
+  <string name="battery">Bateria</string>
   <string name="io_scheduler">Planificador I/O</string>
   <string name="ksm">Kernel Samepage Merging</string>
   <string name="low_memory_killer">Low Memory Killer</string>
@@ -63,8 +63,8 @@
   <string name="misc_controls">Controles varios</string>
   <string name="build_prop_editor">Editor de Build.prop</string>
   <string name="profile">Perfil</string>
-  <string name="recovery">Modo Recovery</string>
-  <string name="settings">Configuración</string>
+  <string name="recovery">Recovery</string>
+  <string name="settings">Ajustes</string>
   <string name="about_us">Sobre nosotros</string>
   <!-- Virtual Memory -->
   <string name="zram">Z-RAM</string>
@@ -103,7 +103,7 @@
   <string name="mc_power_saving_summary">Trate de agrupar las tareas en los menos núcleos posibles.</string>
   <string name="cfs_scheduler_policy">Política del Regulador CFS</string>
   <string name="cfs_scheduler_policy_summary">La política decide el programador CFS para equilibrar las tareas en diferentes unidades de CPU.</string>
-  <string name="disabled">Inhabilitado</string>
+  <string name="disabled">Desactivado</string>
   <string name="enabled">Habilitado</string>
   <string name="aggressive">Agresivo</string>
   <string name="temp_limit">Límite de temperatura</string>
@@ -438,7 +438,7 @@
   <string name="value">Valor</string>
   <string name="delete_prop">¿Borrar %s?</string>
   <string name="backup_created">Copia de seguridad se ha creado en %s.</string>
-  <string name="search">Búscar</string>
+  <string name="search">Buscar</string>
   <!-- Profile -->
   <string name="no_profiles">No hay perfiles</string>
   <string name="profile_description">Agregar un perfil guardará la configuración actual. Más tarde se puede aplicar.</string>
@@ -484,10 +484,10 @@
   <string name="open_source">Código abierto</string>
   <string name="donate">Donar</string>
   <string name="donate_summary">Hola espero que te guste mi trabajo, no es obligatorio donar \npero aún así si lo deseas, tu donación será apreciada :) </string>
-  <string name="profile_support">Perfiles de soporte </string>
+  <string name="profile_support">Soporte de perfiles </string>
   <string name="database_support">Soporte de base de datos de perfiles</string>
   <string name="gpu_min_freq_summary">Ajustar la frecuencia mínima de a que la GPU escala hacia abajo.</string>
-  <string name="gpu_min_freq">Frecuencia Mínima de la GPU</string>
+  <string name="gpu_min_freq">Frecuencia mínima de la GPU</string>
   <string name="execute">Ejecutar</string>
   <string name="brightness_mode">Utilice el modo de luz de fondo exponencial en lugar del modo lineal.</string>
 </resources>
