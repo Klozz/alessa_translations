@@ -24,10 +24,26 @@
   ~
   -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="no_root">Thiết bị chưa được root</string>
+  <string name="no_busybox">Busy box chưa được cài đặt</string>
+  <string name="loading">Đang tải</string>
+  <string name="ok">Ok</string>
+  <string name="cancel">Hủy bỏ</string>
+  <string name="current_value_not_supported">Giá trị hiện tại không được hỗ trợ</string>
   <!-- Apply on boot -->
+  <string name="apply_on_boot">Áp dụng khi khởi động</string>
+  <string name="apply_on_boot_finished">Các thay đổi đã được áp dụng</string>
+  <string name="apply_on_boot_time">Áp dụng thiết đặt sau %d giây</string>
+  <string name="apply_on_boot_enabled">Cho phép áp dụng trên khởi động cho phần %s</string>
+  <string name="apply_on_boot_disabled">Đã tắt áp dụng khi khởi động cho phần %s</string>
+  <string name="apply_on_boot_failed">Không thể áp dụng cài đặt khi khởi động</string>
   <!-- Units -->
   <!-- Special signs -->
   <!-- Headers -->
+  <string name="information">Thông tin</string>
+  <string name="kernel">Kernel</string>
+  <string name="tools">Công cụ</string>
+  <string name="other">Khác</string>
   <!-- Tabs -->
   <!-- Virtual Memory -->
   <!--Misc-->
@@ -36,7 +52,16 @@
   <!-- CPU -->
   <!-- CPU Voltage -->
   <!-- CPU Hotplug -->
+  <string name="mpdecision_summary">Giải pháp tắt/mở (Cpu) nhanh của Qualcomm. Bạn có thể gặp vấn đề với việc thay đổi xung nhịp khi điều này được kích hoạt.</string>
+  <string name="screen_off_single_core_summary">Chỉ sử dụng một CPU khi màn hình tắt.</string>
+  <string name="AlessaDefault">Mặc Định Giá Trị</string>
+  <string name="max_cores_screen_off_summary">Số CPU bật tối đa khi màn hình đang tắt.</string>
+  <string name="up_threshold_summary">Trên ngưỡng này trình điều khiển sẽ đưa thêm một lõi CPU mở.</string>
+  <string name="cores_on_touch">CPU khi chạm</string>
   <!-- Thermal -->
+  <string name="core_throttle_temp_summary">Nhiệt độ bắt đầu đóng cửa CPU.</string>
+  <string name="core_temp_hysteresis">Nhiệt độ CPU Hysteresis</string>
+  <string name="msm_thermal_summary">Một sự thay thế cho Qualcomm MPDecision. Phát triển bởi show-p1984.</string>
   <!-- GPU -->
   <!-- Screen -->
   <!-- Wake -->
@@ -44,12 +69,18 @@
   <!-- Battery -->
   <!-- I/O Scheduler -->
   <!-- Kernel Samepage Merging -->
+  <string name="ksm_sleep_milliseconds">Thời gian ngủ giữa các lần quét (ms)</string>
   <!-- Low Memory Killer -->
   <!-- Entropy -->
   <!-- Misc Controls -->
   <!-- Build prop Editor -->
   <!-- Profile -->
+  <string name="name">Tên </string>
+  <string name="no_settings">Không thấy bài nào</string>
   <!-- Recovery -->
+  <string name="your_recovery">Trình hồi phục </string>
+  <string name="wipe_data">Xóa dữ liệu (data)</string>
+  <string name="add_action_first">Bạn phải thêm hành động đầu tiên!</string>
   <!-- Settings -->
   <!-- About us -->
 </resources>
