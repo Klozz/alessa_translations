@@ -24,11 +24,37 @@
   ~
   -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="no_root">Root erişimi sağlanamadı</string>
+  <string name="no_busybox">Busybox yüklü değil</string>
+  <string name="loading">Yükleniyor</string>
+  <string name="ok">Tamam</string>
+  <string name="cancel">İptal</string>
+  <string name="current_value_not_supported">Geçerli değer desteklenmiyor</string>
   <!-- Apply on boot -->
+  <string name="apply_on_boot">Açılışta uygula</string>
+  <string name="apply_on_boot_finished">Yaptığınız değişiklikler uygulandı</string>
+  <string name="apply_on_boot_time">Ayarlarınız %d saniyede uygulanacak</string>
+  <string name="apply_on_boot_enabled">%s bölümü açılışta uygulandı</string>
+  <string name="apply_on_boot_disabled">%s bölümü açılışta devre dışı bırakıldı</string>
+  <string name="apply_on_boot_failed">Ayarlar açılışta uygulanırken hata oluştu</string>
   <!-- Units -->
   <!-- Special signs -->
   <!-- Headers -->
+  <string name="information">Bilgi</string>
+  <string name="kernel">Çekirdek</string>
+  <string name="tools">Araçlar</string>
+  <string name="other">Diğer</string>
   <!-- Tabs -->
+  <string name="frequency_table">Frekans Tablosu</string>
+  <string name="kernel_information">Çekirdek Bilgisi</string>
+  <string name="cpu_temp">İşlemci Sıcaklığı</string>
+  <string name="cpu_voltage">İşlemci Voltajı</string>
+  <string name="cpu_hotplug">İşlemci Hotplug</string>
+  <string name="thermal">Termal</string>
+  <string name="screen">Ekran</string>
+  <string name="high_brightness_mode">Yüksek Parlaklık modu</string>
+  <string name="wake">Uyandırma Fonksiyonları</string>
+  <string name="battery">Batarya</string>
   <!-- Virtual Memory -->
   <!--Misc-->
   <!-- Frequency Table -->
