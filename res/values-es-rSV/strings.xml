@@ -26,17 +26,17 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string name="no_root">Acceso root no disponible</string>
   <string name="no_busybox">Busybox no disponible</string>
-  <string name="loading">Cargando</string>
+  <string name="loading">Cargando...</string>
   <string name="ok">Aceptar</string>
   <string name="cancel">Cancelar</string>
-  <string name="current_value_not_supported">Valor actual no compatible</string>
+  <string name="current_value_not_supported">Valor actual es insoportado</string>
   <!-- Apply on boot -->
-  <string name="apply_on_boot">Aplicar en el arranque</string>
+  <string name="apply_on_boot">Aplicar al inicio de sistema</string>
   <string name="apply_on_boot_finished">Los cambios se han aplicado</string>
-  <string name="apply_on_boot_time">Aplicar la configuración en %d segundos</string>
-  <string name="apply_on_boot_enabled">Habilitado aplicar en arranque para %s sección</string>
-  <string name="apply_on_boot_disabled">Desactivar aplicar en el arranque para la sección %s</string>
-  <string name="apply_on_boot_failed">No se pudo aplicar la configuración en el arranque</string>
+  <string name="apply_on_boot_time">Aplicando configuración dentro de %d segundos</string>
+  <string name="apply_on_boot_enabled">Sección %s habilitada para aplicar al inicio de sistema</string>
+  <string name="apply_on_boot_disabled">Sección %s no se aplicará en inicio de sistema</string>
+  <string name="apply_on_boot_failed">No se pudo aplicar configuración en inicio de sistema</string>
   <!-- Units -->
   <!-- Special signs -->
   <!-- Headers -->
@@ -46,41 +46,41 @@
   <string name="other">Otros</string>
   <!-- Tabs -->
   <string name="frequency_table">Tabla de frecuencias</string>
-  <string name="kernel_information">Información de kernel</string>
+  <string name="kernel_information">Información de núcleo</string>
   <string name="cpu_temp">Temperatura de la CPU</string>
   <string name="cpu_voltage">Voltaje de la CPU</string>
-  <string name="cpu_hotplug">CPU Hotplug</string>
-  <string name="thermal">Térmico</string>
+  <string name="cpu_hotplug">Hotplug de la CPU</string>
+  <string name="thermal">Termal</string>
   <string name="screen">Pantalla</string>
-  <string name="high_brightness_mode">Modo brillo alto</string>
-  <string name="wake">Func. para encender/apagar la pantalla</string>
+  <string name="high_brightness_mode">Modo de brillo alto</string>
+  <string name="wake">Funciones p/ despertar pantalla</string>
   <string name="battery">Batería</string>
-  <string name="io_scheduler">Planificador I/O</string>
-  <string name="ksm">Kernel Samepage Merging</string>
-  <string name="low_memory_killer">Low Memory Killer</string>
+  <string name="io_scheduler">Planificador de Entrada y Salida (I/O)</string>
+  <string name="ksm">Fusión de paginación de núcleo</string>
+  <string name="low_memory_killer">Terminador en memoria baja</string>
   <string name="virtual_memory">Memoria virtual</string>
   <string name="entropy">Entropía</string>
   <string name="misc_controls">Controles varios</string>
   <string name="build_prop_editor">Editor de Build.prop</string>
   <string name="profile">Perfil</string>
   <string name="recovery">Modo Recovery</string>
-  <string name="settings">Configuración</string>
+  <string name="settings">Ajustes</string>
   <string name="about_us">Sobre nosotros</string>
   <!-- Virtual Memory -->
   <string name="zram">Z-RAM</string>
-  <string name="disksize">Tamaño del disco</string>
-  <string name="disksize_summary">Intenta aumentar el rendimiento evitando la paginación en el almacenamiento físico, en lugar de utilizar un dispositivo virtual comprimido en la RAM. La búsqueda se realiza en la memoria RAM hasta que sea necesario utilizar el espacio de intercambio en el almacenamiento físico.</string>
+  <string name="disksize">Disksize</string>
+  <string name="disksize_summary">Intenta aumentar el rendimiento moviendo la paginación a un dispositivo virtual comprimido en la RAM en lugar de mantenerlo en el almacenamiento físico. La búsqueda se realiza en la memoria RAM hasta que sea necesario utilizar el espacio de intercambio en el almacenamiento físico.</string>
   <!--Misc-->
   <string name="sensor_ind_wakelock">sensor_ind Wakelock</string>
-  <string name="sensor_ind_wakelock_summary">Evite el wakelock cuando la pantalla ambiente está deshabilitada.</string>
+  <string name="sensor_ind_wakelock_summary">Evitar el Wakelock cuando la función \"Pantalla Ambiente\" está desactivada.</string>
   <!-- Frequency Table -->
-  <string name="unused_cpu_states">Estados de CPU sin uso</string>
+  <string name="unused_cpu_states">Estados de CPU sin usar</string>
   <string name="uptime">Tiempo de actividad</string>
-  <string name="deep_sleep">Sueño profundo</string>
-  <string name="reset_timer">Reiniciar los cronómetros</string>
-  <string name="restore_timer">Restablecer temporizadores</string>
+  <string name="deep_sleep">Sueño profundo de CPU</string>
+  <string name="reset_timer">Reiniciar contadores</string>
+  <string name="restore_timer">Restaurar contadores</string>
   <!-- Kernel Information -->
-  <string name="kernel_version">Versión de kernel</string>
+  <string name="kernel_version">Versión de núcleo</string>
   <string name="cpu_information">Información de la CPU</string>
   <string name="memory_information">Información de la memoria</string>
   <!-- CPU -->
@@ -136,7 +136,7 @@
   <string name="start_delay_summary">Tiempo hasta que Hotplug comienza a trabajar.</string>
   <string name="delay_summary">Tiempo entre comprobaciones.</string>
   <string name="pause">Pausa</string>
-  <string name="pause_summary">Si algo más se conecta en la CPU, dormirse durante este tiempo.</string>
+  <string name="pause_summary">Si algo más se conecta en la CPU, dormir el CPU durante este tiempo.</string>
   <string name="intelliplug_summary">Un reemplazo de MPDecision por faux123.</string>
   <string name="profile_summary">El número entre paréntesis indica la cantidad de núcleos en línea en cualquier momento.</string>
   <string name="balanced">Equilibrado</string>
@@ -147,35 +147,35 @@
   <string name="touch_boost">Touch Boost</string>
   <string name="touch_boost_summary">Esto aumentará la velocidad mínima de la CPU si toca la pantalla o presiona un botón.</string>
   <string name="hysteresis">Valor de histéresis</string>
-  <string name="hysteresis_summary">Cuanto menor sea, la respuesta es más rápida.</string>
-  <string name="threshold">Valor de umbral</string>
+  <string name="hysteresis_summary">Cuanto menor sea este valor, la respuesta será más rápida.</string>
+  <string name="threshold">Valor límite </string>
   <string name="debug">Depurar</string>
   <string name="debug_summary">Le permite activar la máscara de depuración para las operaciones.</string>
   <string name="suspend">Suspender</string>
-  <string name="suspend_summary">Evitar la suspensión.</string>
+  <string name="suspend_summary">Evitar la suspensión</string>
   <string name="cpus_boosted">CPUs potenciadas</string>
   <string name="cpus_boosted_summary">Número máximo de CPUs potenciadas al mismo tiempo.</string>
-  <string name="min_cpus_online">Min CPU en línea</string>
-  <string name="min_cpus_online_summary">Mínimo CPUs en línea en cualquier momento.</string>
+  <string name="min_cpus_online">Min CPUs en línea</string>
+  <string name="min_cpus_online_summary">Mínimo número de CPUs en línea en cualquier momento.</string>
   <string name="max_cpus_online">CPUs máximas en línea</string>
-  <string name="max_cpus_online_summary">Máximos CPUs en línea en cualquier momento.</string>
-  <string name="max_cpus_online_susp">Núcleos máximos cuando la pantalla está apagada</string>
-  <string name="max_cpus_online_susp_summary">Número máximo de núcleos cuando la pantalla está apagada.</string>
-  <string name="suspend_defer_time">Suspender el tiempo de diferimiento</string>
+  <string name="max_cpus_online_summary">Número máximo de CPUs en línea en cualquier momento.</string>
+  <string name="max_cpus_online_susp">Máximas CPUs con pantalla apagada</string>
+  <string name="max_cpus_online_susp_summary">Número máximo de CPUs cuando la pantalla está apagada.</string>
+  <string name="suspend_defer_time">Tiempo de diferimiento de suspensión</string>
   <string name="defer_sampling">Aplazar el muestreo</string>
   <string name="boost_lock_duration">Duración de bloqueo de impulso</string>
   <string name="boost_lock_duration_summary">Intervalo mínimo en que se potencia la CPU.</string>
-  <string name="down_lock_duration">Reducir duración de bloqueo</string>
+  <string name="down_lock_duration">Duración de bloqueo</string>
   <string name="down_lock_duration_summary">Intervalo mínimo que un CPU se mantendrá activo.</string>
   <string name="alessaplug_summary">Un controlador de hotplugging simple optimizado para Dual Core hasta CPUs Octa Core por TeamMEX.\n Versión: </string>
-  <string name="alessaplug_touch_boost">Impulso táctil Alessa Plug</string>
+  <string name="alessaplug_touch_boost">TouchBoost de Alessa</string>
   <string name="alessa_touch_boost_summary">Esto aumentará la velocidad mínima de la CPU si toca la pantalla o presiona un botón</string>
   <string name="Quad">Cuatro núcleos</string>
   <string name="Dual">Dos núcleos</string>
   <string name="AlessaDefault">Valor por defecto \"%d\"</string>
   <string name="profile_summary2">Define los núcleos que desea apagar. \nValor predeterminado: ninguno.\nDos núcleos.\nQuadCore no apagar ninguno.\nNivel de resistencia:</string>
   <string name="Endurance_level">Nivel de resistencia</string>
-  <string name="powersaver_mode">Modo económico</string>
+  <string name="powersaver_mode">Ahorro de energía</string>
   <string name="powersaver_mode_summary">Establece 1 CPU máximo en línea con frecuencia @1728 MHz.</string>
   <string name="min_cpu_online">Mínimos CPU activos</string>
   <string name="min_cpu_online_summary">Número mínimo de CPUs que estarán siempre en línea.</string>
@@ -183,8 +183,8 @@
   <string name="max_cpu_online_summary">Número máximo de CPUs que estarán siempre en línea.</string>
   <string name="max_cores_screen_off">Máximo de núcleos con pantalla apagada</string>
   <string name="max_cores_screen_off_summary">Número máximo de núcleos encendidos cuando la pantalla este apagada.</string>
-  <string name="up_threshold">Umbral de subida</string>
-  <string name="up_threshold_summary">Pasando este umbral, se activará un núcleo más.</string>
+  <string name="up_threshold">Valor límite para subida</string>
+  <string name="up_threshold_summary">Pasando este valor, se activará un núcleo más.</string>
   <string name="up_timer_cnt">Control de temporizador</string>
   <string name="up_timer_cnt_summary">Temporizador de control para CPUs activas.</string>
   <string name="down_timer_cnt">Reducir el control de temporizador</string>
@@ -239,25 +239,25 @@
   <string name="freq_throttle_temp">Regulador de frecuencia de temperatura</string>
   <string name="freq_throttle_temp_summary">Temperatura para iniciar la regulación de frecuencias.</string>
   <string name="core_throttle_temp">Regulador de temperatura del núcleo</string>
-  <string name="core_throttle_temp_summary">Temperatura para comenzar a apagar los Cpus.</string>
+  <string name="core_throttle_temp_summary">Temperatura para comenzar a apagar los CPUs.</string>
   <string name="core_temp_hysteresis">Histéresis de la temperatura del núcleo</string>
-  <string name="freq_step">Paso de frecuencia</string>
+  <string name="freq_step">Intérvalo de frecuencia</string>
   <string name="immediately_limit_stop">Límite de parada inmediata</string>
   <string name="poll">Sondeo</string>
   <string name="temp_hysteresis">Histéresis de temperatura</string>
   <string name="thermal_limit_low">Límite térmico bajo</string>
   <string name="thermal_limit_high">Límite térmico alto</string>
-  <string name="temp_safety">Temperatura de seguridad</string>
+  <string name="temp_safety">Seguridad de temperatura</string>
   <string name="msm_thermal">MSM Térmico</string>
-  <string name="msm_thermal_summary">Un reemplazo del núcleo para Thermald de Qualcomm. Desarrollado por show-p1984.</string>
-  <string name="alessa_thermal_summary">Un reemplazo de Qualcomm Thermald. Desarrollado por TeamMEX.</string>
+  <string name="msm_thermal_summary">Un reemplazo dentro de núcleo para Thermald de Qualcomm. Desarrollado por show-p1984.</string>
+  <string name="alessa_thermal_summary">Un reemplazo dentro de núcleo para Thermald. Desarrollado por TeamMEX.</string>
   <string name="allowed_low_low">Fase 1: Permitido Bajo Bajo</string>
   <string name="allowed_low_high">Fase 1: permitido bajo alto</string>
   <string name="allowed_low_freq">Fase 1: Frecuencia baja permitida</string>
   <string name="allowed_mid_low">Fase 2: Permitida Media Baja</string>
   <string name="allowed_mid_high">Fase 2: Permitido Medio Alto</string>
   <string name="allowed_mid_freq">Fase 2: Frecuencia media permitida</string>
-  <string name="allowed_max_low">Fase 3: Max permitido bajo</string>
+  <string name="allowed_max_low">Fase 3: Permitido máximo bajo</string>
   <string name="allowed_max_high">Fase 3: Permitido Máximo Alto</string>
   <string name="allowed_max_freq">Fase 3: frecuencia máxima permitida</string>
   <string name="check_interval">Intervalo de comprobación</string>
@@ -266,8 +266,8 @@
   <string name="temp_throttle_summary">Interruptor de límite de temperatura SoC.</string>
   <string name="freq_limit_debug">Depuración de límite de frecuencia</string>
   <string name="freq_limit_debug_summary">Esto permite depurar el acelerador de CPUs cuando la temperatura alcanza el máximo.</string>
-  <string name="temp_limit_min_freq">Temperatura límite de frecuencia mínima</string>
-  <string name="temp_limit_min_freq_summary">Thermal utilizará esta frecuencia para regular la temperatura máxima.</string>
+  <string name="temp_limit_min_freq">Frecuencia mínima de límite de temperatura</string>
+  <string name="temp_limit_min_freq_summary">Termal utilizará esta frecuencia para regular la temperatura máxima.</string>
   <!-- GPU -->
   <string name="gpu_2d_cur_freq">Frecuencia actual de GPU 2D</string>
   <string name="gpu_cur_freq">Frecuencia actual del GPU</string>
@@ -276,14 +276,14 @@
   <string name="gpu_max_freq">Frecuencia máxima del GPU</string>
   <string name="gpu_max_freq_summary">Establecer la frecuencia máxima del GPU.</string>
   <string name="gpu_2d_governor">Gobernador de GPU 2D</string>
-  <string name="gpu_2d_governor_summary">Establece el gobernador del GPU.</string>
+  <string name="gpu_2d_governor_summary">Establece el gobernador 2D del GPU.</string>
   <string name="gpu_governor">Gobernador del GPU</string>
   <string name="gpu_governor_summary">Establece el gobernador del GPU.</string>
   <string name="simple_gpu_algorithm">Algoritmo simple del GPU</string>
   <string name="simple_gpu_algorithm_summary">Es un complemento para el gobernador de GPU MSM Adreno TZ. Desarrollado por faux123.</string>
-  <string name="laziness">Laziness</string>
-  <string name="laziness_summary">Esto aumenta el umbral aumentando o disminuyendo las frecuencias de la GPU. Valores bajos, un mayor rendimiento.</string>
-  <string name="ramp_thresold">Rampa de Umbral</string>
+  <string name="laziness">Haraganería</string>
+  <string name="laziness_summary">Esto aumenta el límite para aumentar o disminuir las frecuencias de la GPU. Valores bajos, un mayor rendimiento.</string>
+  <string name="ramp_thresold">Límite para acelerar</string>
   <string name="ramp_thresold_summary">Esto incrementa el número de veces que el gobernador detenga solicitudes. Cuanto mayor sea el valor, un mayor rendimiento.</string>
   <string name="adreno_idler_summary">Una solución eficiente para los gastos generales de msm-adreno-tz.</string>
   <string name="down_differential">Diferencial hacia abajo</string>
@@ -345,7 +345,7 @@
   <string name="top_half">Mitad superior</string>
   <string name="halfscreen">Mitad de la pantalla</string>
   <string name="fullscreen">Pantalla completa</string>
-  <string name="s2w_summary">Enciende la pantalla deslizando la barra de navegación.</string>
+  <string name="s2w_summary">Enciende la pantalla deslizando sobre la barra de navegación.</string>
   <string name="s2s_summary">Apaga la pantalla deslizando en la barra de navegación.</string>
   <string name="t2w_summary">Enciende la pantalla pulsandola.</string>
   <string name="s2sl">Izquierda</string>
@@ -353,8 +353,8 @@
   <string name="s2sb">Ambas</string>
   <string name="wake_timeout">Tiempo de espera para despertar</string>
   <string name="wake_timeout_summary">Selecciona una duración cuando los controles de desbloqueo se desactivaran tras apagar la pantalla.</string>
-  <string name="power_key_suspend">Suspender tecla de encendido</string>
-  <string name="power_key_suspend_summary">Activar esto apaga los controladores de encendido cuando la pantalla se apaga con la tecla de encendido.</string>
+  <string name="power_key_suspend">Suspender con tecla de encendido</string>
+  <string name="power_key_suspend_summary">Esto apaga los controladores de encendido cuando la pantalla se apaga con la tecla de encendido.</string>
   <!-- Sound -->
   <string name="sound_control">Control de Sonido</string>
   <string name="headset_highperf_mode">Modo alto rendimiento del auricular</string>
@@ -372,9 +372,9 @@
   <string name="internal_storage">Almacenamiento interno</string>
   <string name="external_storage">Almacenamiento externo</string>
   <string name="scheduler">Planificador</string>
-  <string name="scheduler_summary">Establece el algoritmo de ascensor de I/O activo. El programador decide cómo manejar las solicitudes de E/S.</string>
+  <string name="scheduler_summary">Establece el algoritmo de Entrada y Salida (I/O) activo. El planificador decide cómo manejar las solicitudes de E/S.</string>
   <string name="scheduler_tunable">Editor de planificador</string>
-  <string name="scheduler_tunable_summary">Varios elementos de la configuración dependen del programador.</string>
+  <string name="scheduler_tunable_summary">Varios elementos de la configuración que dependen del planificador.</string>
   <string name="read_ahead">Prelectura</string>
   <string name="read_ahead_summary">Valor de prelectura de la memoria del teléfono.</string>
   <!-- Kernel Samepage Merging -->
@@ -400,11 +400,11 @@
   <string name="light">Ligero</string>
   <string name="medium">Medio</string>
   <string name="very_aggressive">Muy agresivo</string>
-  <string name="adaptive">Adaptativo Lmk</string>
-  <string name="adaptive_summary">Hacer LMK más agresivo dinámicamente cuando se detecta un escenario de thrashing.</string>
+  <string name="adaptive">Terminador memoria baja adaptable</string>
+  <string name="adaptive_summary">Hacer TMB más agresivo dinámicamente cuando se detecta un escenario de thrashing.</string>
   <!-- Entropy -->
   <string name="available">Disponible</string>
-  <string name="poolsize">Poolsize</string>
+  <string name="poolsize">Tamaño de contenedor</string>
   <string name="read">Lectura</string>
   <string name="write">Escritura</string>
   <!-- Misc Controls -->
@@ -457,7 +457,7 @@
   <string name="twrp">TWRP</string>
   <string name="confirm">¿Estás seguro?</string>
   <string name="actions">Acciones</string>
-  <string name="wipe_data">Borrar Datos</string>
+  <string name="wipe_data">Borrar Data</string>
   <string name="wipe_cache">Borrar Caché</string>
   <string name="flash_zip">Instalar Zip</string>
   <string name="went_wrong">¡Algo salió mal!</string>
@@ -465,7 +465,7 @@
   <string name="flash_now_confirm">¿Quieres ejecutar tus acciones? El dispositivo se reiniciará en modo Recovery y las acciones se ejecutarán en el orden en que las agregó.</string>
   <string name="add_action_first">Primero tienes que añadir una acción.</string>
   <!-- Settings -->
-  <string name="dark_theme">Tema oscuro</string>
+  <string name="dark_theme">Tema negro</string>
   <string name="delay">Retraso</string>
   <string name="notification">Notificación</string>
   <string name="notification_summary">Muestra una notificación cuando se aplica la configuración al arranque. Desactivar si tienes algún problema.</string>
@@ -473,20 +473,20 @@
   <string name="debugging">Depuración</string>
   <string name="logcat">Logcat</string>
   <string name="logcat_summary">Copiar logcat en /sdcard/logcat.txt</string>
-  <string name="last_kmsg">Último mensaje del Kernel</string>
+  <string name="last_kmsg">Último mensaje del núcleo</string>
   <string name="last_kmsg_summary">Copiar /proc/last_kmsg en /sdcard/last_kmsg.txt</string>
   <string name="driver_message">Mensaje del Controlador</string>
   <string name="driver_message_summary">Copiar mensaje del controlador (dmesg) en /sdcard/dmesg.txt</string>
   <!-- About us -->
   <string name="license">Licencia</string>
   <string name="app_license">Alessa Kernel Tweaker está licenciado bajo GPL, versión 3.0, usa bibliotecas y códigos de algunos desarrolladores </string>
-  <string name="fab">Botón de acción flotante</string>
+  <string name="fab">Botón flotante</string>
   <string name="open_source">Código abierto</string>
   <string name="donate">Donar</string>
   <string name="donate_summary">Hola espero que te guste mi trabajo, no es obligatorio donar \npero aún así si lo deseas, tu donación será apreciada :) </string>
-  <string name="profile_support">Perfiles de soporte </string>
+  <string name="profile_support">Soporte de perfiles</string>
   <string name="database_support">Soporte de base de datos de perfiles</string>
-  <string name="gpu_min_freq_summary">Ajustar la frecuencia mínima de a que la GPU escala hacia abajo.</string>
+  <string name="gpu_min_freq_summary">Ajustar la frecuencia mínima de la GPU</string>
   <string name="gpu_min_freq">Frecuencia Mínima de la GPU</string>
   <string name="execute">Ejecutar</string>
   <string name="brightness_mode">Utilice el modo de luz de fondo exponencial en lugar del modo lineal.</string>
