@@ -45,42 +45,42 @@
   <string name="tools">Herramientas</string>
   <string name="other">Otros</string>
   <!-- Tabs -->
-  <string name="frequency_table">Tabla de frecuencias</string>
+  <string name="frequency_table">Tabla de frecuencia</string>
   <string name="kernel_information">Información de kernel</string>
   <string name="cpu_temp">Temperatura de la CPU</string>
   <string name="cpu_voltage">Voltaje de la CPU</string>
   <string name="cpu_hotplug">CPU Hotplug</string>
   <string name="thermal">Térmico</string>
   <string name="screen">Pantalla</string>
-  <string name="high_brightness_mode">Modo brillo alto</string>
-  <string name="wake">Func. para encender/apagar la pantalla</string>
+  <string name="high_brightness_mode">Modo de alto brillo</string>
+  <string name="wake">Funciones de encendido</string>
   <string name="battery">Batería</string>
-  <string name="io_scheduler">Planificador I/O</string>
+  <string name="io_scheduler">Programador I/O</string>
   <string name="ksm">Kernel Samepage Merging</string>
   <string name="low_memory_killer">Low Memory Killer</string>
-  <string name="virtual_memory">Memoria virtual</string>
+  <string name="virtual_memory">Memoria Virtual</string>
   <string name="entropy">Entropía</string>
-  <string name="misc_controls">Controles varios</string>
-  <string name="build_prop_editor">Editor de Build.prop</string>
+  <string name="misc_controls">Controles misceláneos</string>
+  <string name="build_prop_editor">Editor de Build prop</string>
   <string name="profile">Perfil</string>
-  <string name="recovery">Modo Recovery</string>
-  <string name="settings">Configuración</string>
+  <string name="recovery">Recuperación</string>
+  <string name="settings">Configuraciones</string>
   <string name="about_us">Sobre nosotros</string>
   <!-- Virtual Memory -->
   <string name="zram">Z-RAM</string>
   <string name="disksize">Tamaño del disco</string>
-  <string name="disksize_summary">Intenta aumentar el rendimiento evitando la paginación en el almacenamiento físico, en lugar de utilizar un dispositivo virtual comprimido en la RAM. La búsqueda se realiza en la memoria RAM hasta que sea necesario utilizar el espacio de intercambio en el almacenamiento físico.</string>
+  <string name="disksize_summary">Intenta aumentar el rendimiento al evitar la paginación en el almacenamiento físico, en lugar de usar un dispositivo virtual comprimido en la RAM. La paginación tiene lugar en la memoria RAM hasta que sea necesario utilizar el espacio de intercambio en el almacenamiento físico.</string>
   <!--Misc-->
   <string name="sensor_ind_wakelock">sensor_ind Wakelock</string>
-  <string name="sensor_ind_wakelock_summary">Evite el wakelock cuando la pantalla ambiente está deshabilitada.</string>
+  <string name="sensor_ind_wakelock_summary">Evite el wakelock cuando la pantalla ambiental esté desactivada.</string>
   <!-- Frequency Table -->
-  <string name="unused_cpu_states">Estados de CPU sin uso</string>
+  <string name="unused_cpu_states">Estados de la CPU inutilizados</string>
   <string name="uptime">Tiempo de actividad</string>
   <string name="deep_sleep">Sueño profundo</string>
-  <string name="reset_timer">Reiniciar los cronómetros</string>
-  <string name="restore_timer">Restablecer temporizadores</string>
+  <string name="reset_timer">Restablecer temporizadores</string>
+  <string name="restore_timer">Restaurar temporizadores</string>
   <!-- Kernel Information -->
-  <string name="kernel_version">Versión de kernel</string>
+  <string name="kernel_version">Versión del Kernel</string>
   <string name="cpu_information">Información de la CPU</string>
   <string name="memory_information">Información de la memoria</string>
   <!-- CPU -->
