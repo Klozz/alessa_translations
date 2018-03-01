@@ -24,18 +24,63 @@
   ~
   -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="no_root">Tidak Ada Root</string>
+  <string name="no_busybox">Busybox tidak tersedia</string>
+  <string name="loading">Memuat</string>
+  <string name="ok">OK</string>
+  <string name="cancel">Batal</string>
+  <string name="current_value_not_supported">Nilai yang dimasukkan belum didukung</string>
   <!-- Apply on boot -->
+  <string name="apply_on_boot">Terapkan saat boot</string>
+  <string name="apply_on_boot_finished">Perubahan telah diterapkan</string>
   <!-- Units -->
   <!-- Special signs -->
   <!-- Headers -->
+  <string name="information">Informasi</string>
+  <string name="kernel">Kernel</string>
+  <string name="tools">Alat</string>
+  <string name="other">Lainnya</string>
   <!-- Tabs -->
+  <string name="frequency_table">Tabel Frekuensi</string>
+  <string name="kernel_information">Informasi Kernel</string>
+  <string name="cpu_temp">Suhu CPU</string>
+  <string name="cpu_voltage">Tegangan CPU</string>
+  <string name="cpu_hotplug">CPU Hotplug</string>
+  <string name="thermal">Termal</string>
+  <string name="screen">Layar</string>
+  <string name="high_brightness_mode">Mode Kecerahan Tinggi</string>
+  <string name="wake">Fungsi Bangun</string>
+  <string name="battery">Baterai</string>
+  <string name="io_scheduler">Penjadwal I/O</string>
+  <string name="virtual_memory">Memori Virtual</string>
+  <string name="misc_controls">Serbaneka Kontrol</string>
+  <string name="build_prop_editor">Penyunting Build Prop</string>
+  <string name="profile">Profil</string>
+  <string name="recovery">Recovery</string>
+  <string name="settings">Setelan</string>
+  <string name="about_us">Tentang kami</string>
   <!-- Virtual Memory -->
+  <string name="zram">Z-RAM</string>
   <!--Misc-->
   <!-- Frequency Table -->
   <!-- Kernel Information -->
+  <string name="kernel_version">Versi Kernel</string>
+  <string name="memory_information">Informasi Memori</string>
   <!-- CPU -->
+  <string name="cpu_usage">Penggunaan CPU</string>
   <!-- CPU Voltage -->
   <!-- CPU Hotplug -->
+  <string name="mpdecision_summary">Pengaturan hotplug solusi Qualcomm\'s. Anda mungkin akan mengalami masalah saat merubah frekuensi ketika pilihan ini aktif.</string>
+  <string name="screen_off_single_core_summary">Gunakan satu inti saat layar mati.</string>
+  <string name="idle_frequency">Frekuensi Menganggur</string>
+  <string name="boost_frequecy_core">Meningkatkan Frekuensi Inti %d</string>
+  <string name="start_delay">Jeda Sebelum Mulai</string>
+  <string name="delay_summary">Waktu antar pengecekan.</string>
+  <string name="pause">Jeda</string>
+  <string name="balanced">Seimbang</string>
+  <string name="performance">Performa</string>
+  <string name="threshold">Nilai Batasan</string>
+  <string name="suspend">Tunda</string>
   <!-- Thermal -->
   <!-- GPU -->
   <!-- Screen -->
