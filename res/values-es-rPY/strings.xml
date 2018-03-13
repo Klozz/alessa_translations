@@ -34,8 +34,8 @@
   <string name="apply_on_boot">Aplicar en el arranque</string>
   <string name="apply_on_boot_finished">Los cambios se han aplicado</string>
   <string name="apply_on_boot_time">Aplicar la configuración en %d segundos</string>
-  <string name="apply_on_boot_enabled">Habilitado aplicar en arranque para %s sección</string>
-  <string name="apply_on_boot_disabled">Desactivar aplicar en el arranque para la sección %s</string>
+  <string name="apply_on_boot_enabled">Habilitado aplicar en el arranque </string>
+  <string name="apply_on_boot_disabled">Desactivar aplicar en el arranque </string>
   <string name="apply_on_boot_failed">No se pudo aplicar la configuración en el arranque</string>
   <!-- Units -->
   <!-- Special signs -->
@@ -490,4 +490,6 @@
   <string name="gpu_min_freq">Frecuencia Mínima de la GPU</string>
   <string name="execute">Ejecutar</string>
   <string name="brightness_mode">Utilice el modo de luz de fondo exponencial en lugar del modo lineal.</string>
+  <string name="dmesg_saved">dmesg guardado en /sdcard/Alessa/dmesg.txt</string>
+  <string name="last_kmsg_saved">Last Kmsg pasado guardado en la memoria interna dentro de la carpeta de Alessa</string>
 </resources>
