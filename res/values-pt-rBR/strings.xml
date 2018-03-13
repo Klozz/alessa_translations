@@ -34,8 +34,6 @@
   <string name="apply_on_boot">Aplicar na inicialização</string>
   <string name="apply_on_boot_finished">As alterações foram aplicadas</string>
   <string name="apply_on_boot_time">Aplicando as configurações em %d segundos</string>
-  <string name="apply_on_boot_enabled">Habilitado para aplicar na inicialização para %s seção</string>
-  <string name="apply_on_boot_disabled">Desativado para aplica na inicialização da %s seção</string>
   <string name="apply_on_boot_failed">Falha ao aplicar as configurações na inicialização</string>
   <!-- Units -->
   <!-- Special signs -->
