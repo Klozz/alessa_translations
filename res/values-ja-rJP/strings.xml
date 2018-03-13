@@ -34,8 +34,6 @@
   <string name="apply_on_boot">ブート時に適用</string>
   <string name="apply_on_boot_finished">変更が適用されました</string>
   <string name="apply_on_boot_time">%d 秒で設定を適用します</string>
-  <string name="apply_on_boot_enabled">ブート時の %s セクションの適用を有効にする</string>
-  <string name="apply_on_boot_disabled">起動時に %s セクションの適用を無効にする</string>
   <string name="apply_on_boot_failed">ブート時設定の適用に失敗しました</string>
   <!-- Units -->
   <!-- Special signs -->
