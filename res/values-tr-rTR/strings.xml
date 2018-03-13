@@ -34,8 +34,6 @@
   <string name="apply_on_boot">Açılışta uygula</string>
   <string name="apply_on_boot_finished">Yaptığınız değişiklikler uygulandı</string>
   <string name="apply_on_boot_time">Ayarlarınız %d saniyede uygulanacak</string>
-  <string name="apply_on_boot_enabled">%s bölümü açılışta uygulandı</string>
-  <string name="apply_on_boot_disabled">%s bölümü açılışta devre dışı bırakıldı</string>
   <string name="apply_on_boot_failed">Ayarlar açılışta uygulanırken hata oluştu</string>
   <!-- Units -->
   <!-- Special signs -->
