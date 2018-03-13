@@ -34,8 +34,6 @@
   <string name="apply_on_boot">Применять при загрузке</string>
   <string name="apply_on_boot_finished">Ваши настройки применены</string>
   <string name="apply_on_boot_time">Настройки будут применены через %d секунд</string>
-  <string name="apply_on_boot_enabled">Включено применение настроек при загрузке на %s</string>
-  <string name="apply_on_boot_disabled">Выключено применение настроек при загрузке для раздела %s</string>
   <string name="apply_on_boot_failed">Не удалось применить настройки при загрузке</string>
   <!-- Units -->
   <!-- Special signs -->
