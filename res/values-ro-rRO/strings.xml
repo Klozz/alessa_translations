@@ -34,8 +34,6 @@
   <string name="apply_on_boot">Aplicare la pornire</string>
   <string name="apply_on_boot_finished">Modificările au fost aplicate</string>
   <string name="apply_on_boot_time">Aplicarea setărilor dvs. în %d secunde</string>
-  <string name="apply_on_boot_enabled">Este activată aplicare la pornire pentru secţiunea %s</string>
-  <string name="apply_on_boot_disabled">Este dezactivată aplicare la pornire pentru secţiunea %s</string>
   <string name="apply_on_boot_failed">Activare eşuată aplicare la pornire</string>
   <!-- Units -->
   <!-- Special signs -->
