@@ -34,8 +34,6 @@
   <string name="apply_on_boot">Applica all\'avvio</string>
   <string name="apply_on_boot_finished">Le tue modifiche sono state salvate</string>
   <string name="apply_on_boot_time">Salvo le impostazioni in %d secondi</string>
-  <string name="apply_on_boot_enabled">Applica all\'avvio attivato per la sezione %s</string>
-  <string name="apply_on_boot_disabled">Applica all\'avvio disattivato per la sezione %s</string>
   <string name="apply_on_boot_failed">Applica impostazioni all\'avvio fallito</string>
   <!-- Units -->
   <!-- Special signs -->
