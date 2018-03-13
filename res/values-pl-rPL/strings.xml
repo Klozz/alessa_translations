@@ -34,8 +34,6 @@
   <string name="apply_on_boot">Zastosuj przy starcie</string>
   <string name="apply_on_boot_finished">Twoje zmiany zostały zastosowane</string>
   <string name="apply_on_boot_time">Ustawienia zostaną zastosowane za %d sekund</string>
-  <string name="apply_on_boot_enabled">Włączono zastosowanie zmian przy uruchomieniu dla sekcji %s</string>
-  <string name="apply_on_boot_disabled">Wyłączono zastosowanie zmian przy uruchomieniu dla sekcji %s</string>
   <string name="apply_on_boot_failed">Zastosowanie ustawień przy uruchomieniu nie powiodło się</string>
   <!-- Units -->
   <!-- Special signs -->
