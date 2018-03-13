@@ -34,8 +34,6 @@
   <string name="apply_on_boot">Áp dụng khi khởi động</string>
   <string name="apply_on_boot_finished">Các thay đổi đã được áp dụng</string>
   <string name="apply_on_boot_time">Áp dụng thiết đặt sau %d giây</string>
-  <string name="apply_on_boot_enabled">Cho phép áp dụng trên khởi động cho phần %s</string>
-  <string name="apply_on_boot_disabled">Đã tắt áp dụng khi khởi động cho phần %s</string>
   <string name="apply_on_boot_failed">Không thể áp dụng cài đặt khi khởi động</string>
   <!-- Units -->
   <!-- Special signs -->
