@@ -34,8 +34,6 @@
   <string name="apply_on_boot">Appliquer au démarrage</string>
   <string name="apply_on_boot_finished">Vos modifications ont été appliquées</string>
   <string name="apply_on_boot_time">Application de vos paramètres dans %d secondes</string>
-  <string name="apply_on_boot_enabled">Applicage au démarrage activé pour la section %s</string>
-  <string name="apply_on_boot_disabled">Applicage au démarrage désactivé pour la section %s</string>
   <string name="apply_on_boot_failed">Impossible d\'appliquer les paramètres au démarrage</string>
   <!-- Units -->
   <!-- Special signs -->
