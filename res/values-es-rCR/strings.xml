@@ -492,5 +492,4 @@
   <string name="brightness_mode">Utilice el modo de luz de fondo exponencial en lugar del modo lineal.</string>
   <string name="dmesg_saved">dmesg guardado en /sdcard/Alessa/dmesg.txt</string>
   <string name="last_kmsg_saved">Last Kmsg pasado guardado en la memoria interna dentro de la carpeta de Alessa</string>
-  <string name="logcat_saved">Logcat guardado en memoria interna dentro de la carpeta de Alessa</string>
 </resources>
