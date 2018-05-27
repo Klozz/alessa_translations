@@ -34,8 +34,6 @@
   <string name="apply_on_boot">Beim Booten anwenden</string>
   <string name="apply_on_boot_finished">Ihre Änderungen wurden übernommen</string>
   <string name="apply_on_boot_time">Änderungen werden in %d Sekunden übernommen</string>
-  <string name="apply_on_boot_enabled">Übernehmen bei Boot für Abschnitt %s aktiviert</string>
-  <string name="apply_on_boot_disabled">Übernehmen bei Boot für Abschnitt %s deaktiviert</string>
   <string name="apply_on_boot_failed">Übernehmen der Einstellungen bei Boot fehlgeschlagen</string>
   <!-- Units -->
   <!-- Special signs -->
