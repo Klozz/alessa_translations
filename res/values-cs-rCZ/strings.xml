@@ -34,8 +34,6 @@
   <string name="apply_on_boot">Použít při spuštění</string>
   <string name="apply_on_boot_finished">Změny nastavení byly použity</string>
   <string name="apply_on_boot_time">Nastavení bude použito během %d sekund</string>
-  <string name="apply_on_boot_enabled">Použití při spuštění zapnuto pro kategorii %s</string>
-  <string name="apply_on_boot_disabled">Použití při spuštění vypnuto pro kategorii %s</string>
   <string name="apply_on_boot_failed">Použití nastavení při spuštění selhalo</string>
   <!-- Units -->
   <!-- Special signs -->
